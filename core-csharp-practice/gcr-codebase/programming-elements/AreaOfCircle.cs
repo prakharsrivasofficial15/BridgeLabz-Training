@@ -4,9 +4,12 @@ class Area
 {
     static void Main()
     {
-        double radius = Convert.ToDouble(Console.ReadLine());
-        double area = 3.14 * Math.Pow(radius, 2);
+        // Read the radius value from the user and convert it to double
+        double rad = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine(area);
+        // Calculate the area of the circle
+        double ar = 3.14 * Math.Pow(rad, 2);
+
+        Console.WriteLine(ar);
     }
 }

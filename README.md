@@ -156,3 +156,36 @@ Studied and understood the following concepts:
 ---
 
 ✅ **Training Progress: On Track**
+
+## 🗓️ Day-4 | C# Basics & Runtime Concepts
+
+**Date:** 19 December 2025  
+
+### 🔹 Overview
+Day-4 focused on strengthening the fundamentals of **C# programming** and revising important **.NET runtime concepts**.
+
+### 🔹 Topics Covered
+- **Operators in C#**
+  - Arithmetic operators
+  - Relational operators
+  - Logical operators
+  - Assignment operators
+- **Data Types in C#**
+  - Value types
+  - Reference types
+  - Type conversion
+- **Revision of MSIL (Microsoft Intermediate Language)**
+  - Role of MSIL in .NET execution
+  - Platform independence of IL code
+- **Revision of CLR (Common Language Runtime)**
+  - Execution of IL code
+  - Memory management and garbage collection
+  - Just-In-Time (JIT) compilation
+
+### 🔹 Learning Outcome
+- Improved understanding of C# operators and data types
+- Clear revision of MSIL and CLR concepts
+- Better insight into how C# programs execute internally
+
+---
+

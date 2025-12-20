@@ -84,8 +84,7 @@ Day-2 focused on understanding **version control using Git and GitHub** and how 
 # 📘 Day-3 | Capgemini BridgeLabz Training
 
 **Date:** 18 December 2025   
-**Program:** Capgemini BridgeLabz  
-**Day:** 1  
+**Program:** Capgemini BridgeLabz   
 **Technology Stack:** C#, .NET  
 
 ---
@@ -241,41 +240,33 @@ Studied Access Modifiers, which define the scope and visibility of classes, meth
 
 🔐 Types of Access Modifiers
 
-**public**
-
+**public:**
 Accessible from anywhere in the application
 
-**private**
-
+**private:**
 Accessible only within the same class
 
-**protected**
-
+**protected:**
 Accessible within the same class and its derived classes
 
-**internal**
-
+**internal:**
 Accessible within the same assembly
 
-**protected internal**
-
+**protected internal:**
 Accessible within the same assembly or derived classes
 
-**private protected**
-
+**private protected:**
 Accessible only within the same class or derived classes in the same assembly
 
 ### Key Concepts Understood
 
-Importance of encapsulation and data hiding
-
 Selecting the correct access modifier based on design requirements
 
-How access modifiers improve:
+**How access modifiers improve:**
 
 Code security
 
 Code readability
 
-Long-term maintainability
+
 

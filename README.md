@@ -196,3 +196,86 @@ Day-4 focused on strengthening the fundamentals of **C# programming** and revisi
 
 ---
 
+## Day-5 | C# Operator Problem Solving & Access Modifiers
+
+📅 **Date:** 20 December 2025
+🎓 Program: Capgemini BridgeLabz
+💻 Technology Stack: C#, .NET
+
+🔹 Overview
+
+Day-5 focused on strengthening problem-solving skills using C# operators and gaining an in-depth understanding of Access Modifiers in C#, which play a critical role in code security, encapsulation, and maintainability.
+
+**Topics Covered**
+📌 1️⃣ Problem Solving Using C# Operators
+
+Solved multiple C# programming problems using different operators
+
+Practiced applying operators in logical expressions and conditional statements
+
+### ✅ Operators Practiced
+
+**Arithmetic Operators:**
++, -, *, /, %
+
+**Relational Operators:**
+==, !=, >, <, >=, <=
+
+**Logical Operators:**
+&&, ||, !
+
+**Assignment Operators:**
+=, +=, -=, *=, /=
+
+### Key Learnings
+
+Operator precedence and associativity
+
+Writing optimized conditional logic
+
+Applying operators to solve real-world logical problems
+
+### 2️⃣ Access Modifiers in C#
+
+Studied Access Modifiers, which define the scope and visibility of classes, methods, and variables in a C# application.
+
+🔐 Types of Access Modifiers
+
+**public**
+
+Accessible from anywhere in the application
+
+**private**
+
+Accessible only within the same class
+
+**protected**
+
+Accessible within the same class and its derived classes
+
+**internal**
+
+Accessible within the same assembly
+
+**protected internal**
+
+Accessible within the same assembly or derived classes
+
+**private protected**
+
+Accessible only within the same class or derived classes in the same assembly
+
+### Key Concepts Understood
+
+Importance of encapsulation and data hiding
+
+Selecting the correct access modifier based on design requirements
+
+How access modifiers improve:
+
+Code security
+
+Code readability
+
+Long-term maintainability
+

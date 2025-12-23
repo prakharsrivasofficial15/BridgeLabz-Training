@@ -1,7 +1,7 @@
 using System;
 
 class IsOperator{
-	static void main(String[] args){
+	static void Main(String[] args){
 		object n = 10;
 
 		if (n is int)

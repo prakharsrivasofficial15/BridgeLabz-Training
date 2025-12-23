@@ -1,17 +1,17 @@
 using System;
 
-class RelationalOperators{
-	static void main(String[] args){
-		
-		int a = 15;
-		int b = 3;
-		
-		Console.WriteLine("a==b: " + a==b);
-		Console.WriteLine("a!=b: " + a!=b);
-		Console.WriteLine("a>=b: " + a>=b);
-		Console.WriteLine("a=<b: " + a=<b);
-		
-	}
+class RelationalOperators
+{
+    static void Main()
+    {
+        int a = 5;
+        int b = 15;
+
+        Console.WriteLine(a < b);   
+        Console.WriteLine(a > b);   
+        Console.WriteLine(a <= b);  
+        Console.WriteLine(a >= b);  
+        Console.WriteLine(a == b);  
+        Console.WriteLine(a != b);  
+    }
 }
-
-

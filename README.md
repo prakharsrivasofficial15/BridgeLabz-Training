@@ -1,6 +1,6 @@
 ﻿# BridgeLabz-Training
 
-# 📘 Capgemini BridgeLabz Training Log
+# 📘 BridgeLabz Training Log
 
 **Program:** Capgemini BridgeLabz  
 **Technology Stack:** C#, .NET  
@@ -16,7 +16,7 @@
 Day-1 was an **introductory and orientation session** for the BridgeLabz training program.
 
 ### 🔹 Activities
-- Introduction to the **Capgemini BridgeLabz Training Program**
+- Introduction to the **BridgeLabz Training Program**
 - Overview of the **training roadmap and learning objectives**
 - Guidance on:
   - Training structure

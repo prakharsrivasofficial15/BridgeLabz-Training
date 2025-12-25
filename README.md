@@ -385,53 +385,52 @@ Code readability
 ### 🔹 Topics Covered
 ## 📌 Arrays (Advanced Practice)
 
-Different ways to create arrays
+	Different ways to create arrays
 
-Working with two-dimensional (2D) arrays
+	Working with two-dimensional (2D) arrays
 
-Understanding and using Environment.Exit(0)
+	Understanding and using Environment.Exit(0)
 
 ## 📌 Methods in C#
 
 Different ways to create methods
 
-- With static
+	- With static
 
-- Without static
+	- Without static
 
 Creating objects to call non-static methods
 
 Recursive methods
 
-- Understanding recursion flow
+	- Understanding recursion flow
 
-- Base case and recursive case
+	- Base case and recursive case
 
 ## 🔹 Code Practice & GitHub Push
 
-Used base folder C# Control Flow
+- Used base folder C# Control Flow
 
-Pushed:
+- Pushed:
 
-- Core C# Level 3 Arrays
+	Core C# Level 3 Arrays
 
-- Level 1 and Level 2 Methods practice code
-to GitHub repository
+	Level 1 and Level 2 Methods practice code to GitHub repository
 
 ## 🎯 Learning Outcomes
 
-Gained strong understanding of methods and arrays
+	Gained strong understanding of methods and arrays
 
-Improved proficiency in C# functionality
+	Improved proficiency in C# functionality
 
-Hands-on practice enhanced problem-solving skills
+	Hands-on practice enhanced problem-solving skills
 
 ## 🚀 Next Steps
 
-Continue practicing advanced C# concepts
+	Continue practicing advanced C# concepts
 
-Explore Methods in depth
+	Explore Methods in depth
 
-Learn more about .NET libraries and real-world projects
+	Learn more about .NET libraries and real-world projects
 
 ✅ Training Progress: Consistent and Improving Day by Day 🚀

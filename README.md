@@ -1,8 +1,8 @@
 # BridgeLabz-Training
 
-# 📘 Capgemini BridgeLabz Training Log
+# 📘 BridgeLabz Training Log
 
-**Program:** Capgemini BridgeLabz  
+**Program:** BridgeLabz  
 **Technology Stack:** C#, .NET  
 **Mode:** Training  
 
@@ -16,7 +16,7 @@
 Day-1 was an **introductory and orientation session** for the BridgeLabz training program.
 
 ### 🔹 Activities
-- Introduction to the **Capgemini BridgeLabz Training Program**
+- Introduction to the **BridgeLabz Training Program**
 - Overview of the **training roadmap and learning objectives**
 - Guidance on:
   - Training structure
@@ -189,3 +189,535 @@ Day-4 focused on strengthening the fundamentals of **C# programming** and revisi
 
 ---
 
+### 🗓️ Day-5 | C# Operator Problem Solving & Access Modifiers
+
+📅 Date: 20 December 2025
+💻 Technology Stack: C#, .NET
+
+### 🔹 Overview
+
+### Day-5 focused on strengthening problem-solving skills using C# operators and gaining an in-depth understanding of Access Modifiers in C#, which play a critical role in code security, encapsulation, and maintainability.
+
+### 🔹 Topics Covered
+📌 1️⃣ Problem Solving Using C# Operators
+
+Solved multiple C# programming problems using different operators
+
+Practiced applying operators in logical expressions and conditional statements
+
+### ✅ Operators Practiced
+
+**Arithmetic Operators:**
++, -, *, /, %
+
+**Relational Operators:**
+==, !=, >, <, >=, <=
+
+**Logical Operators:**
+&&, ||, !
+
+**Assignment Operators:**
+=, +=, -=, *=, /=
+
+### 🔹 Key Learnings
+
+Operator precedence and associativity
+
+Writing optimized conditional logic
+
+Applying operators to solve real-world logical problems
+
+### 📌 2️⃣ Access Modifiers in C#
+
+Studied Access Modifiers, which define the scope and visibility of classes, methods, and variables in a C# application.
+
+### 🔐 Types of Access Modifiers
+
+**public**
+
+Accessible from anywhere in the application
+
+**private**
+
+Accessible only within the same class
+
+**protected**
+
+Accessible within the same class and its derived classes
+
+**internal**
+
+Accessible within the same assembly
+
+**protected internal**
+
+Accessible within the same assembly or derived classes
+
+**private protected**
+
+Accessible only within the same class or derived classes in the same assembly
+
+### 🔹 Key Concepts Understood
+
+Importance of encapsulation and data hiding
+
+Selecting the correct access modifier based on design requirements
+
+### How access modifiers improve:
+
+Code security
+
+Code readability
+
+Long-term maintainability
+
+### 🎯 Learning Outcomes
+
+Improved problem-solving ability using C# operators
+
+Clear understanding of access control mechanisms in C#
+
+Ability to design secure and structured code
+
+Better grasp of object-oriented design principles
+
+### 🚀 Next Steps
+
+Practice programs using classes with access modifiers
+
+Start learning Object-Oriented Programming (OOP) concepts:
+
+Classes & Objects
+
+Inheritance
+
+Encapsulation
+
+Continue daily GitHub code commits and documentation
+
+✅ Training Progress: Consistent and On Track
+
+### 🗓️ Day-6 | C# Basics & Control Flow
+
+📅 Date: 22 December 2025
+
+🔹 Topics Covered
+📌 Control Flow Statements
+
+### Conditional Statements
+
+if
+
+else if
+
+else
+
+switch case
+
+### Looping Statements
+
+for
+
+while
+
+do while
+
+foreach
+
+### Loop Control Keywords
+
+break
+
+continue
+
+Nested Loops
+
+### 🔹 Code Practice & GitHub Push
+
+Created base folder C# Control Flow
+
+Pushed Core C# Level 1 and Level 2 Control Flow practice code to GitHub repository
+
+### 🎯 Learning Outcomes
+
+Gained practical experience with control flow statements
+
+Improved proficiency in C# programming fundamentals
+
+Hands-on coding practice strengthened logical thinking
+
+### 🚀 Next Steps
+
+Continue practicing C# programming concepts
+
+Explore Strings and Arrays in C#
+
+Learn more about .NET libraries and real-world projects
+
+### 🗓️ Day-7 | C# Control Flow & Arrays
+
+📅 Date: 23 December 2025
+
+🔹 Topics Covered
+### 📌 Control Flow (Revision & Practice)
+
+if, else if, else
+
+switch case
+
+for, while, do while, foreach
+
+break, continue
+
+Nested loops
+
+### 📌 Arrays in C#
+
+Different ways to create arrays
+
+Creating and using two-dimensional (2D) arrays
+
+Using Environment.Exit(0) method
+
+🔹 Code Practice & GitHub Push
+
+Used base folder C# Control Flow
+
+Pushed:
+
+Core C# Level 3 Control Flow
+
+Level 1 and Level 2 Arrays practice code
+to GitHub repository
+
+### 🎯 Learning Outcomes
+
+Strengthened understanding of control flow and arrays
+
+Improved confidence in handling data collections
+
+Gained hands-on experience in solving logical problems using C#
+
+### 🚀 Next Steps
+
+Continue practicing C# programming concepts
+
+Explore Methods in C#
+
+Learn more about .NET libraries and real-world projects
+
+### 🗓️ Day-8 | C# Arrays & Methods
+
+📅 Date: 24 December 2025
+
+🔹 Topics Covered
+### 📌 Arrays (Advanced Practice)
+
+Different ways to create arrays
+
+Working with two-dimensional (2D) arrays
+
+Understanding and using Environment.Exit(0)
+
+### 📌 Methods in C#
+
+Different ways to create methods
+
+With static
+
+Without static
+
+Creating objects to call non-static methods
+
+Recursive methods
+
+Understanding recursion flow
+
+Base case and recursive case
+
+### 🔹 Code Practice & GitHub Push
+
+Used base folder C# Control Flow
+
+Pushed:
+
+Core C# Level 3 Arrays
+
+Level 1 and Level 2 Methods practice code
+to GitHub repository
+
+### 🎯 Learning Outcomes
+
+Gained strong understanding of methods and arrays
+
+Improved proficiency in C# functionality
+
+Hands-on practice enhanced problem-solving skills
+
+### 🚀 Next Steps
+
+Continue practicing advanced C# concepts
+
+Explore Methods in depth
+
+Learn more about .NET libraries and real-world projects
+
+✅ Training Progress: Consistent and Improving Day by Day 🚀
+
+### 🗓️ Day-9 | C# Basics, Strings & Built-in Functions
+
+Date: 26 December 2025
+
+🔹 Overview
+
+### Day-9 focused on understanding Strings in C#, their various operations, and exploring commonly used built-in functions provided by the .NET framework.
+
+### 🔹 Topics Covered
+
+Strings in C#
+
+Different ways to create strings
+
+String functions and operations
+
+Substring, CharAt, and other string methods
+
+Different ways to manipulate and use strings
+
+Built-in Functions
+
+Random class
+
+Math functions
+
+DateTime and its features
+
+Practice questions based on strings and functions
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# Level 1 – Strings, String Handling, and Extras of Built-in Functions to GitHub repository
+
+### 🔹 Learning Outcome
+
+Gained experience in string manipulation and built-in functions
+
+Improved proficiency in C# functionality
+
+Hands-on practice strengthened problem-solving skills
+
+### 🚀 Next Steps
+
+Continue practicing C# programming concepts
+
+Explore advanced concepts in C#
+
+Learn more about .NET libraries and real-world projects
+
+### 🗓️ Day-10 | C# Scenario-Based Programming
+
+Date: 29 December 2025
+
+🔹 Overview
+
+### Day-10 focused on solving scenario-based problems using C#, emphasizing real-world logic and debugging techniques.
+
+### 🔹 Topics Covered
+
+Scenario-based questions on Strings
+
+Scenario-based questions on Arrays and Methods
+
+Using debuggers to identify and fix bugs
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# Scenario-Based Problems to GitHub repository
+
+### 🔹 Learning Outcome
+
+Improved ability to solve real-life programming scenarios
+
+Better understanding of strings, arrays, and methods
+
+Enhanced debugging and logical thinking skills
+
+### 🚀 Next Steps
+
+Continue practicing C# programming concepts
+
+Explore more scenario-based problems
+
+Learn more about .NET libraries and real-world projects
+
+### 🗓️ Day-11 | C# Scenario-Based Applications
+
+Date: 30 December 2025
+
+🔹 Overview
+
+### Day-11 focused on implementing scenario-based applications, applying C# concepts to structured problem statements.
+
+### 🔹 Topics Covered
+
+### Scenario-based questions on:
+
+- Library Management System
+
+- Educational Quiz Application
+
+Scenario-based questions using Arrays and Methods
+
+Debugging techniques to resolve issues
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# Scenario-Based Problems to GitHub repository
+
+### 🔹 Learning Outcome
+
+Experience in building real-world style applications
+
+Improved approach to problem-solving
+
+Increased confidence in C# fundamentals
+
+### 🚀 Next Steps
+
+Continue practicing C# programming concepts
+
+Explore object-oriented concepts in C#
+
+Learn more about .NET libraries and real-world projects
+
+### 🗓️ Day-12 | C# Scenario-Based Programming using OOP
+
+Date: 31 December 2025
+
+🔹 Overview
+
+### Day-12 focused on object-oriented programming (OOP) through scenario-based problem-solving.
+
+### 🔹 Topics Covered
+
+Scenario-based questions on:
+
+- Banking System
+
+- Invoice Generator for Freelancers
+
+Scenario-based questions using:
+
+Arrays
+
+Methods
+
+OOP concepts
+
+Debugging techniques for identifying and fixing issues
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# Scenario-Based OOP Problems to GitHub repository
+
+### 🔹 Learning Outcome
+
+Strong understanding of OOP concepts through practical scenarios
+
+Improved real-world problem-solving approach
+
+Enhanced proficiency in C# programming
+
+### 🚀 Next Steps
+
+Continue practicing advanced C# concepts
+
+Deep dive into OOP and design principles
+
+Learn more about .NET libraries and real-world projects
+
+✅ Training Progress: Consistent and Improving with Real-World Problem Solving 🚀
+
+### 🗓️ Day-13 | C# Object Modeling & UML Diagrams
+
+Date: 01 January 2026
+
+🔹 Overview
+
+### Day-13 focused on solving scenario-based problems using object-oriented design thinking and learning the fundamentals of Object Modeling using UML diagrams to represent system structure and behavior.
+
+### 🔹 Topics Covered
+
+Object Modeling Concepts
+
+- Understanding real-world entities and their relationships
+
+- Translating problem statements into object-oriented designs
+
+Classes vs Objects in C#
+
+- Difference between class (blueprint) and object (instance)
+
+- Creating and using objects from classes
+
+- Real-world mapping of classes and objects
+
+Class Diagrams
+
+- Structure of a class diagram
+
+- Attributes and methods
+
+- Access modifiers and relationships
+
+Object Diagrams
+
+- Representation of object instances at runtime
+
+- Understanding object state and relationships
+
+Sequence Diagrams
+
+- Interaction between objects over time
+
+- Method calls and message flow in a system
+
+Scenario-Based Problem Solving
+
+- Designed object models for given scenarios
+
+- Identified classes, objects, and interactions
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# scenario-based object modeling practice to GitHub repository
+
+### 🔹 Learning Outcome
+
+- Clear understanding of object modeling concepts
+
+- Ability to differentiate between classes and objects
+
+- Learned how to design and interpret UML diagrams
+
+- Improved approach to solving real-world problems using OOP
+
+### 🚀 Next Steps
+
+- Apply object modeling to larger problem statements
+
+- Implement UML designs into C# code
+
+- Learn advanced OOP concepts and design principles
+
+✅ Training Progress: Moving from Coding to Design-Oriented Thinking 🚀

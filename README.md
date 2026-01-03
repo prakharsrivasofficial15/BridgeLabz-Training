@@ -721,3 +721,88 @@ Pushed Core C# scenario-based object modeling practice to GitHub repository
 - Learn advanced OOP concepts and design principles
 
 ✅ Training Progress: Moving from Coding to Design-Oriented Thinking 🚀
+
+
+### 🗓️ Day-14 | C# Inheritance & Scenario-Based Problem Solving
+
+Date: 02 January 2026
+
+🔹 Overview
+
+### Day-14 focused on solving real-world scenario-based problems using C# and gaining a strong understanding of Inheritance and Polymorphism, which are core concepts of Object-Oriented Programming (OOP).
+
+🔹 Scenario-Based Problems Solved: Bus Route Distance Tracker & Festival Lucky Draw
+
+### 📌 Inheritance in C#
+
+- Understanding inheritance and its role in code reusability
+
+- Relationship between base class and derived class
+
+### 📌 Types of Inheritance
+
+- Single-Level Inheritance
+
+- Multilevel Inheritance
+
+- Hierarchical Inheritance
+
+### 📌 Key Features of Inheritance
+
+- Code reusability
+
+- Method overriding
+
+- Improved maintainability
+
+- Logical class hierarchy
+
+### 📌 Method Overriding
+
+- Using virtual and override keywords
+
+- Runtime method dispatch
+
+### 📌 Constructor Inheritance
+
+- Constructor execution order
+
+- Use of base() keyword
+
+### 📌 Polymorphism and Inheritance
+
+- Achieving polymorphism through inheritance
+
+- Base class reference pointing to derived class object
+
+### 📌 Access Modifiers and Inheritance
+
+- Impact of public, protected, internal, and private
+
+- Accessibility rules in derived classes
+
+🔹 **Code Practice & GitHub Push**
+
+- Updated base folder C# Control Flow
+
+- Pushed Core C# inheritance and scenario-based problem solutions to GitHub repository
+
+🔹 **Learning Outcome**
+
+- Strong understanding of inheritance and polymorphism
+
+- Ability to apply OOP concepts to real-world scenarios
+
+- Improved confidence in designing scalable C# applications
+
+- Enhanced problem-solving and logical thinking skills
+
+### 🚀 Next Steps
+
+- Practice advanced inheritance scenarios
+
+- Learn abstract classes and interfaces
+
+- Apply OOP concepts to larger project-based problems
+
+✅ **Training Progress:** Deepening OOP Understanding with Practical Scenarios 🚀

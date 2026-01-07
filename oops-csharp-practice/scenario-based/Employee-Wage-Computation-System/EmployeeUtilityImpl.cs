@@ -13,6 +13,8 @@ namespace Employee_Wage_Computation
         private const int Full_Day_Hour = 8;
         private const int Part_Time_Hour = 8;
         private const int Working_Days = 20;
+        private const int Max_Working_Days = 20;
+        private const int Max_Working_Hours = 100;
         public Employee addEmployee()
         {
             Console.WriteLine("Enter Employee Details: ");
@@ -87,6 +89,38 @@ namespace Employee_Wage_Computation
             }
 
             Console.WriteLine("\nTotal Monthly Wage: " + totalWage);
+        }
+
+        public void CalculateWageTillCondition(long e)
+        {
+            int totalWorkingDays = 0;
+            int totalWorkingHours = 0;
+            int totalWage = 0;
+
+            while (totalWorkingDays < Max_Working_Days && totalWorkingHours < Max_Working_Hours)
+            {
+                totalWorkingDays++;
+
+                Console.WriteLine("\nDay " + totalWorkingDays);
+
+                bool isPresent = CheckAttendance(e);
+
+                if (isPresent)
+                {
+                    totalWorkingHours += Full_Day_Hour;
+                    totalWage += Full_Day_Hour * Wage_Per_Hour;
+                    Console.WriteLine("Employee Present");
+                }
+                else
+                {
+                    Console.WriteLine("Employee Absent");
+                }
+            }
+
+            Console.WriteLine("\nFinal Result:");
+            Console.WriteLine("Total Working Days: " + totalWorkingDays);
+            Console.WriteLine("Total Working Hours: " + totalWorkingHours);
+            Console.WriteLine("Total Wage: " + totalWage);
         }
     }
 }

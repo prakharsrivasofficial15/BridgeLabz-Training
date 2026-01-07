@@ -35,7 +35,8 @@ namespace Employee_Wage_Computation
                             Console.WriteLine("2. Check Employee Attendance");
                             Console.WriteLine("3. Calculate Daily Wage");
                             Console.WriteLine("4. Calculate Monthly Wage");
-                            Console.WriteLine("5. Back");
+                            Console.WriteLine("5. Calculate Wage Till Condition");
+                            Console.WriteLine("6. Back");
 
                             int ftChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -58,7 +59,12 @@ namespace Employee_Wage_Computation
                                     break;
 
                                 case 5:
+                                    employee.CalculateWageTillCondition(e1.GetId());
+                                    break;
+
+                                case 6:
                                     return;
+
 
                                 default:
                                     Console.WriteLine("Invalid Choice");

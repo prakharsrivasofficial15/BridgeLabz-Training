@@ -14,9 +14,8 @@ namespace Employee_Wage_Computation
         {
             employee = new EmployeeUtilityImpl();
             Employee e1 = null;
-            bool flag = true;
 
-            while (flag)
+            while (true)
             {
                 Console.WriteLine("\nWelcome to the Employee Wage Computation System");
                 Console.WriteLine("1. Full Time Employee");
@@ -25,86 +24,81 @@ namespace Employee_Wage_Computation
 
                 int mainChoice = Convert.ToInt32(Console.ReadLine());
 
-                //Full Time Employee Menu
-                if (mainChoice == 1)
+                switch (mainChoice)
                 {
-                    bool fullTimeFlag = true;
+                    // Full Time Employee Menu
+                    case 1:
+                        while (true)
+                        {
+                            Console.WriteLine("\nFull Time Employee Menu");
+                            Console.WriteLine("1. Add Employee");
+                            Console.WriteLine("2. Check Employee Attendance");
+                            Console.WriteLine("3. Calculate Daily Wage");
+                            Console.WriteLine("4. Back");
 
-                    while (fullTimeFlag)
-                    {
-                        Console.WriteLine("\nFull Time Employee Menu");
-                        Console.WriteLine("1. Add Employee");
-                        Console.WriteLine("2. Check Employee Attendance");
-                        Console.WriteLine("3. Calculate Daily Wage");
-                        Console.WriteLine("4. Back");
+                            int ftChoice = Convert.ToInt32(Console.ReadLine());
 
-                        int ftChoice = Convert.ToInt32(Console.ReadLine());
+                            switch (ftChoice)
+                            {
+                                case 1:
+                                    e1 = employee.addEmployee();
+                                    break;
 
-                        if (ftChoice == 1)
-                        {
-                            e1 = employee.addEmployee();
-                        }
-                        else if (ftChoice == 2)
-                        {
-                            employee.CheckAttendance(e1.GetId());
-                        }
-                        else if (ftChoice == 3)
-                        {
-                            employee.CalculateDailyWage(e1.GetId());
-                        }
-                        else if (ftChoice == 4)
-                        {
-                            fullTimeFlag = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid Choice");
-                        }
-                    }
-                }
+                                case 2:
+                                    employee.CheckAttendance(e1.GetId());
+                                    break;
 
-                //Full Time Employee Menu
-                else if (mainChoice == 2)
-                {
-                    bool partTimeFlag = true;
+                                case 3:
+                                    employee.CalculateDailyWage(e1.GetId());
+                                    break;
 
-                    while (partTimeFlag)
-                    {
-                        Console.WriteLine("\nPart Time Employee Menu");
-                        Console.WriteLine("1. Add Employee");
-                        Console.WriteLine("2. Calculate Part Time Wage");
-                        Console.WriteLine("3. Back");
+                                case 4:
+                                    break;
 
-                        int ptChoice = Convert.ToInt32(Console.ReadLine());
+                                default:
+                                    Console.WriteLine("Invalid Choice");
+                                    break;
+                            }
+                        }
 
-                        if (ptChoice == 1)
+                    // Part Time Employee Menu
+                    case 2:
+                        while (true)
                         {
-                            e1 = employee.addEmployee();
-                        }
-                        else if (ptChoice == 2)
-                        {
-                            employee.CalculatePartTimeWage();
-                        }
-                        else if (ptChoice == 3)
-                        {
-                            partTimeFlag = false;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid Choice");
-                        }
-                    }
-                }
+                            Console.WriteLine("\nPart Time Employee Menu");
+                            Console.WriteLine("1. Add Employee");
+                            Console.WriteLine("2. Calculate Part Time Wage");
+                            Console.WriteLine("3. Back");
 
-                //exit
-                else if (mainChoice == 3)
-                {
-                    Console.WriteLine("Exiting the System");
-                    flag = false;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid Choice");
+                            int ptChoice = Convert.ToInt32(Console.ReadLine());
+
+                            switch (ptChoice)
+                            {
+                                case 1:
+                                    e1 = employee.addEmployee();
+                                    break;
+
+                                case 2:
+                                    employee.CalculatePartTimeWage();
+                                    break;
+
+                                case 3:
+                                    break;
+
+                                default:
+                                    Console.WriteLine("Invalid Choice");
+                                    break;
+                            }
+                        }
+
+                    // Exit
+                    case 3:
+                        Console.WriteLine("Exiting the System");
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Choice");
+                        break;
                 }
             }
         }

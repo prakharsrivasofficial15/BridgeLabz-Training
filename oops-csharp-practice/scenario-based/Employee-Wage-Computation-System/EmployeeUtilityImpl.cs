@@ -12,6 +12,7 @@ namespace Employee_Wage_Computation
         private const int Wage_Per_Hour = 20;
         private const int Full_Day_Hour = 8;
         private const int Part_Time_Hour = 8;
+        private const int Working_Days = 20;
         public Employee addEmployee()
         {
             Console.WriteLine("Enter Employee Details: ");
@@ -69,6 +70,23 @@ namespace Employee_Wage_Computation
         {
             int wage = Part_Time_Hour * Wage_Per_Hour;
             Console.WriteLine("Part Time Daily Wage: " + wage);
+        }
+
+        public void CalculateMonthlyWage(long e)
+        {
+            int totalWage = 0;
+
+            for (int day = 1; day <= Working_Days; day++)
+            {
+                Console.WriteLine("\nDay " + day);
+
+                if (CheckAttendance(e))
+                {
+                    totalWage += Full_Day_Hour * Wage_Per_Hour;
+                }
+            }
+
+            Console.WriteLine("\nTotal Monthly Wage: " + totalWage);
         }
     }
 }

@@ -9,9 +9,9 @@ namespace Employee_Wage_Computation
     class EmployeeUtilityImpl : IEmployee
     {
         private Employee _employee;
-        rivate const int Wage_Per_Hour = 20;
+        private const int Wage_Per_Hour = 20;
         private const int Full_Day_Hour = 8;
-
+        private const int Part_Time_Hour = 8;
         public Employee addEmployee()
         {
             Console.WriteLine("Enter Employee Details: ");
@@ -29,7 +29,7 @@ namespace Employee_Wage_Computation
 
             Console.WriteLine("\nEmployee Details Saved Successfully\n");
             Console.WriteLine(_employee.ToString());
-            
+
             return _employee;
         }
 
@@ -38,7 +38,7 @@ namespace Employee_Wage_Computation
             Random random = new Random();
             int attendance = random.Next(0, 2);
 
-            if(attendance == 1)
+            if (attendance == 1)
             {
                 Console.WriteLine("Employee Present");
                 return true;
@@ -63,6 +63,12 @@ namespace Employee_Wage_Computation
             {
                 Console.WriteLine("Daily Employee Wage: 0");
             }
+        }
+
+        public void CalculatePartTimeWage()
+        {
+            int wage = Part_Time_Hour * Wage_Per_Hour;
+            Console.WriteLine("Part Time Daily Wage: " + wage);
         }
     }
 }

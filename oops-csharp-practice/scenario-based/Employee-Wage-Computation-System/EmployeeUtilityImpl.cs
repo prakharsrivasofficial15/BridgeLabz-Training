@@ -9,6 +9,9 @@ namespace Employee_Wage_Computation
     class EmployeeUtilityImpl : IEmployee
     {
         private Employee _employee;
+        rivate const int Wage_Per_Hour = 20;
+        private const int Full_Day_Hour = 8;
+
         public Employee addEmployee()
         {
             Console.WriteLine("Enter Employee Details: ");
@@ -46,6 +49,20 @@ namespace Employee_Wage_Computation
                 return false;
             }
 
+        }
+
+        public void CalculateDailyWage(long e)
+        {
+            bool isPresent = CheckAttendance(e);
+            if (isPresent)
+            {
+                int dailyWage = Wage_Per_Hour * Full_Day_Hour;
+                Console.WriteLine("Daily Employee Wage: " + dailyWage);
+            }
+            else
+            {
+                Console.WriteLine("Daily Employee Wage: 0");
+            }
         }
     }
 }

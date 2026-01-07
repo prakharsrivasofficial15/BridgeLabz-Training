@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Employee_Wage_Computation
+{
+    class EmployeeUtilityImpl : IEmployee
+    {
+        private Employee _employee;
+        public Employee addEmployee()
+        {
+            Console.WriteLine("Enter Employee Details: ");
+
+            Console.Write("Employee ID: ");
+            long id = Convert.ToInt64(Console.ReadLine());
+
+            Console.Write("Employee Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Employee Email: ");
+            string email = Console.ReadLine();
+
+            _employee = new Employee(id, name, email);
+
+            Console.WriteLine("\nEmployee Details Saved Successfully\n");
+            Console.WriteLine(_employee.ToString());
+            
+            return _employee;
+        }
+
+        public bool CheckAttendance(long e)
+        {
+            Random random = new Random();
+            int attendance = random.Next(0, 2);
+
+            if(attendance == 1)
+            {
+                Console.WriteLine("Employee Present");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("Employee Absent");
+                return false;
+            }
+
+        }
+    }
+}

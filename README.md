@@ -806,3 +806,565 @@ Date: 02 January 2026
 - Apply OOP concepts to larger project-based problems
 
 ✅ **Training Progress:** Deepening OOP Understanding with Practical Scenarios 🚀
+
+
+### 🗓️ Day-15 | C# Scenario-Based Questions on OOP
+
+Date: 03 January 2026
+
+🔹 Overview
+
+Day-15 focused on solving scenario-based questions using Object-Oriented Programming (OOP) concepts. The session included a deep dive into OOP fundamentals with mentor guidance, helping to strengthen conceptual clarity and real-world problem-solving skills.
+
+🔹 Topics Covered
+
+### 📌 Scenario-Based Problem Solving
+
+Solved real-life scenario-based questions using OOP concepts
+
+Applied object-oriented thinking to break down complex problems
+
+### 📌 Deep Dive into OOP Concepts
+
+Detailed discussion on classes and objects
+
+Understanding types of inheritance through examples
+
+Explanation of the Diamond Problem and how C# handles it
+
+### 📌 Debugging and Problem Analysis
+
+Used debuggers to identify and fix logical and runtime issues
+
+Improved approach to analyzing and resolving bugs efficiently
+
+🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# scenario-based OOP problem solutions to GitHub repository
+
+🔹 Learning Outcome
+
+	Gained strong experience in Object-Oriented Programming
+
+	Improved ability to approach real-world problems using OOP
+
+	Enhanced proficiency in C# functionality
+
+	Hands-on practice strengthened debugging and logical thinking skills
+
+### 🚀 Next Steps
+
+	Continue practicing C# programming concepts
+
+	Explore advanced OOP concepts in C#
+
+	Learn more about .NET libraries and real-world projects
+
+✅ Training Progress: Strengthening OOP Concepts Through Scenario-Based Learning 🚀
+
+
+### 🗓️ Day-16 | C# OOP – Encapsulation, Abstraction & Interfaces
+
+Date: 04 January 2026
+
+🔹 Overview
+
+Day-16 focused on implementing Object-Oriented Programming concepts through real-world applications, with emphasis on Encapsulation, Abstraction, Interfaces, Inheritance, and Polymorphism.
+
+### 🔹 Scenario-Based Applications Developed
+
+**Hospital Patient Management System**
+
+Designed a system using:
+
+Patient, Doctor, and Bill classes
+
+Applied OOP concepts:
+
+	Encapsulation using properties to protect patient data
+
+	Abstraction using IPayable interface
+
+	Inheritance with InPatient and OutPatient derived from Patient
+
+	Polymorphism through DisplayInfo() method overriding
+
+**Vehicle Rental Application**
+
+Designed application with:
+
+Vehicle, Bike, Car, Truck, and Customer classes
+
+Applied OOP concepts:
+
+	Inheritance to represent vehicle hierarchy
+
+	Protected access modifiers for shared vehicle data
+
+	Interface (IRentable) with CalculateRent(int days) method
+
+	Demonstrated polymorphism in rent calculation
+
+🔹 Concepts Learned
+
+### 📌 Encapsulation
+
+Data hiding using private fields and public properties
+
+Controlled access to class members
+
+### 📌 Abstraction
+
+Use of abstract classes and interfaces
+
+Hiding implementation details while exposing required functionality
+
+### 📌 Interfaces & Multiple Inheritance
+
+Implementing multiple interfaces in C#
+
+Understanding how C# achieves multiple inheritance through interfaces
+
+🔹 **Code Practice & GitHub Push**
+
+Updated base folder C# Control Flow
+
+Pushed Core C# OOP scenario-based applications to GitHub repository
+
+🔹 **Learning Outcome**
+
+	Strong understanding of Encapsulation, Abstraction, and Interfaces
+
+	Ability to design real-world applications using OOP
+
+	Improved confidence in handling inheritance and polymorphism
+
+	Enhanced problem-solving and design thinking skills
+
+### 🚀 Next Steps
+
+	Practice more interface-based designs
+
+	Explore abstract classes vs interfaces in depth
+
+	Apply OOP concepts to mini-projects
+
+✅ Training Progress: Applying Advanced OOP Concepts Through Real-World Applications 🚀
+
+
+### 🗓️ Day-17 | C# OOP with Arrays & Polymorphism
+
+Date: 06 January 2026
+
+🔹 Overview
+
+Day-17 focused on building object-oriented, scenario-based applications using Arrays, Interfaces, Inheritance, and Polymorphism. The session emphasized applying OOP concepts to real-world system design problems.
+
+### 🔹 Scenario-Based Applications Developed
+
+**Customer Service Call Log Manager**
+
+Scenario: A telecom company system to track customer service call logs.
+
+🔹 Requirements Implemented
+
+Stored call logs using an Array of CallLog objects
+
+Each call log contains:
+
+	PhoneNumber
+
+	Message
+
+	Timestamp
+
+Implemented core functionalities:
+
+	AddCallLog() – to add new call entries
+
+	SearchByKeyword() – search messages using string.Contains()
+
+	FilterByTime() – filter call logs based on a time range
+
+🔹 Concepts Applied
+
+	Arrays for data storage
+
+	String handling and searching
+
+	Method-based program structure
+
+	Real-world data filtering logic
+
+**Bird Sanctuary Management System**
+
+Scenario: EcoWing Wildlife Conservation Center tracking different bird species.
+
+🔹 System Design
+
+Base Class: Bird
+
+Common attributes defined for all birds
+
+Interfaces Implemented:
+
+	IFlyable → Fly()
+
+	ISwimmable → Swim()
+
+Derived Classes:
+
+	Eagle, Sparrow → implement IFlyable
+
+	Duck, Penguin → implement ISwimmable
+
+	Seagull → implements both IFlyable and ISwimmable
+
+🔹 Key Implementations
+
+Used Arrays to store bird objects
+
+Applied Polymorphism:
+
+	Iterated through bird list
+
+	Checked interface type using is IFlyable / is ISwimmable
+
+	Called appropriate methods dynamically
+
+### 🔹 Concepts Learned
+
+📌 Arrays with OOP
+
+Managing collections of objects using arrays
+
+Iterating and processing object data
+
+📌 Interfaces & Polymorphism
+
+Multiple interface implementation
+
+Runtime method invocation based on interface type
+
+### 📌 Real-World System Design
+
+Translating requirements into OOP-based solutions
+
+Designing scalable and maintainable class structures
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Core C# OOP scenario-based applications using arrays and interfaces to GitHub repository
+
+###🔹 Learning Outcome
+
+	Strong understanding of polymorphism using interfaces
+
+	Ability to design and implement real-world systems
+
+	Improved confidence in arrays, interfaces, and OOP integration
+
+	Enhanced logical thinking and code organization skills
+
+### 🚀 Next Steps
+
+	Explore Collections (List, Dictionary) in C#
+
+	Learn Generics and their use cases
+
+	Build mini-projects using advanced OOP concepts
+
+### ✅ Training Progress: Applying OOP Concepts to Complex Real-World Scenarios 🚀
+
+
+### 🗓️ Day-18 | C# Collections, Linked List & Employee Wage Computation
+
+Date: 07 January 2026
+
+🔹 Overview
+
+Day-18 focused on learning and practicing Linked Lists from the Collection Library and solving a comprehensive scenario-based problem using OOP principles, proper naming conventions, and structured program design.
+The Employee Wage Computation Problem was implemented step-by-step using multiple use cases.
+
+### 🔹 Scenario-Based Problem Solved
+
+👨‍💼 **Employee Wage Computation Problem**
+
+Objective:
+Design and implement an employee wage computation system using C# OOP concepts and collections.
+
+🔹 Key Outcomes Achieved
+
+Ability to work with C# programming constructs
+
+Effective usage of:
+
+	Classes
+
+	Class variables and methods
+
+	Objects and instances
+
+	Instance variables and methods
+
+	Practical usage of Collection Library (LinkedList)
+
+	Understanding of basic Git workflows
+
+### 🔹 Concepts Applied
+
+📌 **Collections & Linked List**
+
+	Used LinkedList to store employee-related data
+
+	Performed dynamic data handling
+
+📌 **Object-Oriented Programming**
+
+	Encapsulation through well-defined classes
+
+	Clear separation of responsibilities
+
+	Proper naming conventions for readability and maintainability
+
+### 🔹 Code Practice & GitHub Push
+
+Updated base folder C# Control Flow
+
+Pushed Employee Wage Computation problem to GitHub repository
+
+### 🔹 Learning Outcome
+
+	Strong understanding of LinkedList and Collection Library
+
+	Ability to design step-by-step scenario-based solutions
+
+	Improved confidence in OOP implementation
+
+	Better understanding of real-world problem modeling
+
+	Hands-on experience with Git workflows
+
+### 🚀 Next Steps
+
+	Explore other collections like List and Dictionary
+
+	Optimize code using interfaces and abstraction
+
+	Extend employee wage problem with multiple employees
+
+✅ Training Progress: Applying Collections and OOP to Industry-Standard Problems 🚀
+
+
+
+### 🗓️ Day-19 | C# Collections – Stack, Queue & Hashing
+
+Date: 08 January 2026
+
+🔹 Overview
+
+Day-19 focused on understanding and practicing advanced collection data structures in C#, including Stack, Queue, and Dictionary (HashMap), along with the concept of Hashing Functions used for efficient data storage and retrieval.
+
+### 🔹 Topics Covered
+
+### 📌 Stack
+
+Understanding Last-In-First-Out (LIFO) principle
+
+Common operations:
+
+	Push()
+
+	Pop()
+
+	Peek()
+
+Real-world use cases such as:
+
+	Undo/Redo operations
+
+	Function call stack
+
+### 📌 Queue
+
+Understanding First-In-First-Out (FIFO) principle
+
+Common operations:
+
+	Enqueue()
+
+	Dequeue()
+
+	Peek()
+
+Real-world use cases such as:
+
+	Task scheduling
+
+	Request processing systems
+
+### 📌 HashMap (Dictionary in C#)
+
+Understanding key-value pair data storage
+
+Using Dictionary<TKey, TValue>
+
+Operations performed:
+
+	Adding elements
+
+	Retrieving values using keys
+
+	Updating and removing entries
+
+### 📌 Hashing Function
+
+Concept of hashing and its importance
+
+How hash functions convert keys into hash codes
+
+Role of hashing in:
+
+	Fast data access
+
+	Efficient searching
+
+	Understanding collision handling conceptually
+
+### 🔹 Code Practice & GitHub Push
+
+	Practiced Stack, Queue, and Dictionary programs
+
+	Updated base folder C# Control Flow
+
+	Pushed collection-based practice code to GitHub repository
+
+### 🔹 Learning Outcome
+
+	Clear understanding of Stack and Queue data structures
+
+	Ability to work with Dictionary (HashMap) in C#
+
+	Improved knowledge of hashing and hash functions
+
+	Enhanced confidence in using collections for real-world problems
+
+### 🚀 Next Steps
+
+	Practice advanced problems using collections
+
+	Explore Generics with collection classes
+
+	Apply Stack and Queue in scenario-based applications
+
+✅ Training Progress: Strengthening Data Structure Knowledge Using C# Collections 🚀
+
+
+### 🗓️ Day-20 | C# Sorting Algorithms & Advanced Scenario-Based Design
+
+Date: 09 January 2026
+
+🔹 Overview
+
+Day-20 focused on understanding sorting algorithms and solving complex scenario-based problems using object-oriented design, interfaces, and optimized logical strategies.
+
+### 🔹 Topics Covered
+
+### 📌 Sorting Algorithms
+
+Introduction to sorting techniques
+
+Understanding the importance of sorting in problem-solving
+
+Logical flow and optimization concepts behind sorting algorithms
+
+🔹 **Scenario-Based Applications Developed**
+
+### 🏧 ATM Dispenser Logic
+
+Context: Design an ATM system that dispenses the minimum number of currency notes.
+
+🔹 Scenarios Implemented
+
+Scenario A:
+
+Available notes: ₹1, ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹200, ₹500
+
+Calculated optimal note combination for ₹880
+
+Scenario B:
+
+Temporarily removed ₹500 denomination
+
+Updated dispensing strategy accordingly
+
+Scenario C:
+
+Displayed a fallback combination when exact change was not possible
+
+🔹 Concepts Applied
+
+	Greedy logic
+
+	Conditional checks
+
+	Optimized algorithmic approach
+
+### 🏃 FitTrack – Fitness Tracker Application
+🔹 System Design
+
+Classes:
+
+	UserProfile
+
+	Workout
+
+Interface:
+
+	ITrackable
+
+Derived Workout Types:
+
+	CardioWorkout
+
+	StrengthWorkout
+
+### 🔹 Concepts Applied
+
+	Interface-based design
+
+	Inheritance and polymorphism
+
+	Real-world object modeling
+
+### 🔹 Code Practice & GitHub Push
+
+	Practiced sorting logic and scenario-based solutions
+
+	Updated base folder C# Control Flow
+
+	Pushed Core C# sorting and advanced scenario-based applications to GitHub repository
+
+### 🔹 Learning Outcome
+
+	Understanding of sorting algorithm fundamentals
+
+	Ability to design optimized real-world systems
+
+	Improved confidence in interfaces and polymorphism
+
+	Enhanced logical and algorithmic thinking skills
+
+### 🚀 Next Steps
+
+	Implement common sorting algorithms (Bubble, Selection, Insertion)
+
+	Learn searching algorithms
+
+	Apply sorting logic in real-world datasets
+
+✅ Training Progress: Advancing from Data Structures to Algorithmic Problem Solving 🚀

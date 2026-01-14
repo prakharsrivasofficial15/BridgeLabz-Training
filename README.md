@@ -1368,3 +1368,279 @@ Derived Workout Types:
 	Apply sorting logic in real-world datasets
 
 ✅ Training Progress: Advancing from Data Structures to Algorithmic Problem Solving 🚀
+
+
+## Day-21 | Searching Algorithms, I/O & Advanced Scenario-Based Design
+
+Date: 12 January 2026
+
+🔹 Overview
+
+Day-21 focused on learning searching algorithms, efficient string handling and I/O utilities, and implementing complex scenario-based systems using OOP principles, inheritance, interfaces, and encapsulation. The session also introduced algorithmic optimization concepts.
+
+🔹 Topics Covered
+
+## 📌 Searching Algorithms
+
+	Linear Search
+
+	Binary Search
+
+	Comparison of use cases and efficiency
+
+## 📌 String Handling & I/O Utilities
+
+	StringBuilder
+
+	StringBuffer
+
+	BufferedReader
+
+	FileReader
+
+	InputStreamReader
+
+	Efficient input/output handling and memory management concepts
+
+## 🔹 Scenario-Based Applications Developed
+
+**LoanBuddy – Loan Approval Automation System**
+
+Context: FinlyTech launching an automated loan approval platform.
+
+🔹 System Design
+
+Applicant Class
+
+	Name
+
+	Credit score
+
+	Income
+
+	Loan amount
+
+LoanApplication Class
+
+	Loan type
+
+	Loan term
+
+	Interest rate
+
+Interface
+
+IApprovable
+
+	approveLoan()
+
+	calculateEMI()
+
+🔹 OOP Concepts Applied
+
+Encapsulation
+
+Credit score and approval logic kept private
+
+Inheritance
+
+HomeLoan, AutoLoan extending base loan class
+
+Polymorphism
+
+EMI calculation varies by loan type
+
+Constructors
+
+Support for different loan types (personal, home, auto)
+
+Access Modifiers
+
+Loan status changes restricted to internal processes
+
+	​
+
+**Metal Factory Pipe Cutting Problem**
+
+Context: Maximize revenue from cutting metal rods.
+
+🔹 Scenarios Implemented
+
+Scenario A: Optimal cuts for rod of length 8
+
+Scenario B: Impact of custom-length order
+
+Scenario C: Revenue visualization without optimization
+
+**Custom Furniture Manufacturing System**
+
+Context: Revenue optimization with minimal waste.
+
+🔹 Scenarios Implemented
+
+Scenario A: Best cuts for 12ft rod
+
+Scenario B: Fixed waste constraint handling
+
+Scenario C: Balanced strategy for revenue and waste reduction
+
+## 🔹 Concepts Learned (Next-Day Topics Introduced)
+
+📌 Runtime & Complexity Analysis
+
+What is Runtime Analysis
+
+Understanding Big-O Notation
+
+Time Complexity Analysis
+
+Space Complexity Analysis
+
+Best, Worst, and Average Case Scenarios
+
+Practical guidelines for optimizing C# code performance
+
+🔹 Code Practice & GitHub Push
+
+Implemented searching algorithms and scenario-based systems
+
+Updated base folder C# Control Flow
+
+Pushed Core C# advanced OOP and algorithmic problem solutions to GitHub repository
+
+🔹 Learning Outcome
+
+Strong understanding of search algorithms and performance
+
+Ability to design complex real-world systems
+
+Improved command over OOP, encapsulation, and polymorphism
+
+Introduction to performance analysis and optimization thinking
+
+## 🚀 Next Steps
+
+Implement sorting & searching optimizations
+
+Practice Big-O analysis on existing programs
+
+Learn LINQ and performance-aware coding practices
+
+✅ **Training Progress:** Transitioning from Problem Solving to Performance-Oriented Design 🚀
+
+
+## Day-22 | Collections, String Manipulation & Runtime Analysis
+
+Date: 13 January 2026
+
+🔹 Overview
+
+Day-22 focused on building collection-based, real-world applications using lists and string manipulation, along with a detailed introduction to runtime analysis and algorithm complexity, which are essential for writing efficient and scalable C# programs.
+
+## 🔹 Scenario-Based Applications Developed
+
+**BookBuddy – Digital Bookshelf App**
+
+Story: A personal digital bookshelf that allows users to manage and organize their favorite books.
+
+🔹 Requirements Implemented
+
+Used ArrayList to store books in "Title - Author" format
+
+Implemented methods:
+
+	addBook(string title, string author)
+
+	sortBooksAlphabetically()
+
+	searchByAuthor(string author)
+
+Used String.Split() to separate title and author
+
+Applied sorting and searching logic on stored data
+
+🔹 Concepts Applied
+
+	Collection handling using ArrayList
+
+	String parsing and manipulation
+
+	Alphabetical sorting and keyword searching
+
+**CinemaTime – Movie Schedule Manager**
+
+Story: A tool for cinema managers to maintain movie titles and showtimes.
+
+🔹 Requirements Implemented
+
+Used List to store:
+
+	Movie titles
+
+	Movie showtimes
+
+Implemented methods:
+
+	addMovie(string title, string time)
+
+	searchMovie(string keyword) using String.Contains()
+
+	displayAllMovies()
+
+Combined titles and showtimes using:
+
+	String formatting (String.Format())
+
+	String concatenation
+
+🔹 Concepts Applied
+
+	Parallel list management
+
+	String formatting for clean output
+
+	Search functionality using string matching
+
+## 🔹 Concepts Learned
+
+📌 **Runtime & Complexity Analysis**
+
+	What is Runtime Analysis
+
+	Understanding Big-O Notation
+
+	Time Complexity Analysis
+
+	Space Complexity Analysis
+
+	Best, Worst, and Average Case Complexities
+
+	Practical guidelines for optimizing C# code
+
+## 🔹 Code Practice & GitHub Push
+
+	Implemented collection-based scenario programs
+
+	Updated base folder C# Control Flow
+
+	Pushed Core C# collection, string manipulation, and runtime analysis practice code to GitHub repository
+
+## 🔹 Learning Outcome
+
+	Strong understanding of collections and string manipulation
+
+	Ability to build real-world, list-based applications
+
+	Clear introduction to runtime and complexity analysis
+
+	Improved ability to write efficient and optimized C# code
+
+## 🚀 Next Steps
+
+	Practice performance analysis on existing programs
+
+	Explore LINQ for collections
+
+	Implement optimized search and sort strategies
+
+✅ **Training Progress:** Strengthening Efficiency-Oriented Programming Skills 🚀

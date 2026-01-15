@@ -39,6 +39,11 @@ namespace AddressBookSystem
                         break;
 
                     case 4:
+                        //UC-4: show all contacts
+                        addressBook.ShowContacts();
+                        break;
+
+                    case 5:
                         return;
 
                     default:

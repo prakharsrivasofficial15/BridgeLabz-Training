@@ -14,5 +14,7 @@ namespace AddressBookSystem
         void EditContact();
         //delete the contact
         void DeleteContact();
+        //show all contacts
+        void ShowContacts();
     }
 }

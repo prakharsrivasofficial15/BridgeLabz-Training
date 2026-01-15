@@ -80,6 +80,11 @@ namespace AddressBookSystem
             string name = Console.ReadLine();
             addressBook.DeleteContactByFirstName(name);
         }
-
+        //show all contacts
+        public void ShowContacts()
+        {
+            throw new NotImplementedException();
+            addressBook.ShowContacts();
+        }
     }
 }

@@ -6,44 +6,48 @@ using System.Threading.Tasks;
 
 namespace AddressBookSystem
 {
-    abstract class AddressBook
+    internal class AddressBook
     {
-        private string firstName;
-        private string lastName;
-        private string address;
-        private string city;
-        private string state;
-        private string zipCode;
-        private string country;
-        private string phoneNumber;
-        private string email;
+        private string ownerName;         //onwer of the address book
+        private int size;                 //maximum number of contacts
+        private UserContacts[] contacts;  //contacts array
+        private int currentIndex = 0;  // keeps track of next empty slot
 
-        public AddressBook(string firstName, string lastName, string address, string city, string state, string zipCode, string country, string phoneNumber, string email)
+        //constructor initialize the address book
+        public AddressBook(string ownerName, int size)
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.address = address;
-            this.city = city;
-            this.state = state;
-            this.zipCode = zipCode;
-            this.country = country;
-            this.phoneNumber = phoneNumber;
-            this.email = email;
+            this.ownerName = ownerName;
+            this.size = size;
+            contacts = new UserContacts[size];
         }
 
-        public string FirstName() {  return firstName; }
-        public string getLastName() { return lastName; }
-        public string getAddress() { return address; }
-        public string getCity() { return city; }
-        public string getState() { return state; }
-        public string getZipCode() { return zipCode; }
-        public string getCountry() { return country; }
-        public string getPhoneNumber() { return phoneNumber; }
-        public string getEmail() { return email; }
-        public override string ToString()
+        //Method to add a contact to the address book
+        public void AddContact(UserContacts contact)
         {
-            return $"FirstName: {firstName} LastName: {lastName} Address: {address} City: {city} State: {state} ZipCode: {zipCode} Country: {country} PhoneNumber: {phoneNumber} Email: {email}";
+            if (currentIndex >= size)                            //check if the address book is full
+            {
+                Console.WriteLine("Address Book is full");
+                return;
+            }
+
+            contacts[currentIndex] = contact;                   //add contact to the current index
+            currentIndex++;                                     //counter increment
+            Console.WriteLine("Contact added successfully");
         }
 
+        public void ShowContacts()
+        {
+            if (currentIndex == 0)
+            {
+                Console.WriteLine("No contacts in the address book");
+                return;
+            }
+
+            Console.WriteLine($"Contacts in {ownerName}'s Address Book:");
+            for (int i = 0; i < currentIndex; i++)
+            {
+                Console.WriteLine(contacts[i]);
+            }
+        }
     }
 }

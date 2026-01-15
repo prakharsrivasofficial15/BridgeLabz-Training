@@ -33,6 +33,23 @@ namespace AddressBookSystem
             contacts[currentIndex] = contact;                   //add contact to the current index
             currentIndex++;                                     //counter increment
             Console.WriteLine("Contact added successfully");
+
+            if (currentIndex >= size)
+            {
+                Console.WriteLine("Address Book is full");
+                return;
+            }
+
+            // UC 6: Duplicate check before adding
+            if (IsDuplicateContact(contact.FirstName()))
+            {
+                Console.WriteLine("Duplicate contact found. Contact not added.");
+                return;
+            }
+
+            contacts[currentIndex] = contact;
+            currentIndex++;
+            Console.WriteLine("Contact added successfully.");
         }
 
         public void ShowContacts()
@@ -114,6 +131,18 @@ namespace AddressBookSystem
         public string OwnerName
         {
             get { return ownerName; }
+        }
+        //add Duplicate Check method
+        public bool IsDuplicateContact(string firstName)
+        {
+            for (int i = 0; i < currentIndex; i++)
+            {
+                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
     }

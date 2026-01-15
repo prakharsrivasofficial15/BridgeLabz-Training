@@ -21,32 +21,40 @@ namespace AddressBookSystem
             addressBooks = new AddressBook[size];
         }
 
-        // Adds a new AddressBook if the name is not already used
+        // UC-1: Add Address Book
         public void AddAddressBook(string name, int size)
         {
-            // Check if an AddressBook with the same name already exists
+            // Check system capacity
+            if (count >= addressBooks.Length)
+            {
+                Console.WriteLine("Cannot add more Address Books. System is full.");
+                return;
+            }
+
+            // Check duplicate AddressBook name
             if (IsDuplicate(name))
             {
                 Console.WriteLine("Address Book with this name already exists.");
                 return;
             }
 
-            // Create and store the new AddressBook
-            addressBooks[count++] = new AddressBook(name, size);
+            addressBooks[count] = new AddressBook(name, size);
+            count++;
+
             Console.WriteLine("Address Book created successfully.");
         }
 
-        // Retrieves an AddressBook by owner name (case-insensitive)
+        // UC-2: Retrieve Address Book by name
         public AddressBook GetAddressBook(string name)
         {
-            // Search through existing AddressBooks
             for (int i = 0; i < count; i++)
             {
                 if (addressBooks[i].OwnerName.Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
                     return addressBooks[i];
+                }
             }
 
-            // Return null if no matching AddressBook is found
             return null;
         }
 
@@ -56,11 +64,13 @@ namespace AddressBookSystem
             for (int i = 0; i < count; i++)
             {
                 if (addressBooks[i].OwnerName.Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
                     return true;
+                }
             }
 
-            // No duplicate found
             return false;
         }
     }
 }
+

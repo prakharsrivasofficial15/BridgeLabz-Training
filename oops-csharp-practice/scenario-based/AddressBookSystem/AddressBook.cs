@@ -8,12 +8,12 @@ namespace AddressBookSystem
 {
     internal class AddressBook
     {
-        private string ownerName;         //onwer of the address book
-        private int size;                 //maximum number of contacts
-        private UserContacts[] contacts;  //contacts array
-        private int currentIndex = 0;  // keeps track of next empty slot
+        private string ownerName;              // owner of the address book
+        private int size;                      // maximum number of contacts
+        private UserContacts[] contacts;       // contacts array
+        private int currentIndex = 0;          // next empty slot index
 
-        //constructor initialize the address book
+        // Constructor
         public AddressBook(string ownerName, int size)
         {
             this.ownerName = ownerName;
@@ -21,27 +21,18 @@ namespace AddressBookSystem
             contacts = new UserContacts[size];
         }
 
-        //Method to add a contact to the address book
+        // UC-3: Add Contact
         public void AddContact(UserContacts contact)
         {
-            if (currentIndex >= size)                            //check if the address book is full
-            {
-                Console.WriteLine("Address Book is full");
-                return;
-            }
-
-            contacts[currentIndex] = contact;                   //add contact to the current index
-            currentIndex++;                                     //counter increment
-            Console.WriteLine("Contact added successfully");
-
+            // Check if address book is full
             if (currentIndex >= size)
             {
-                Console.WriteLine("Address Book is full");
+                Console.WriteLine("Address Book is full.");
                 return;
             }
 
-            // UC 6: Duplicate check before adding
-            if (IsDuplicateContact(contact.FirstName()))
+            // UC-6: Duplicate check BEFORE adding
+            if (IsDuplicateContact(contact))
             {
                 Console.WriteLine("Duplicate contact found. Contact not added.");
                 return;
@@ -49,14 +40,16 @@ namespace AddressBookSystem
 
             contacts[currentIndex] = contact;
             currentIndex++;
+
             Console.WriteLine("Contact added successfully.");
         }
 
+        // UC-6: Show Contacts
         public void ShowContacts()
         {
             if (currentIndex == 0)
             {
-                Console.WriteLine("No contacts in the address book");
+                Console.WriteLine("No contacts in the address book.");
                 return;
             }
 
@@ -67,14 +60,14 @@ namespace AddressBookSystem
             }
         }
 
-        //Edit the details of the person by searching by the first name of the person
+        // UC-4: Edit Contact by First Name
         public void EditContactByFirstName(string firstName)
         {
             for (int i = 0; i < currentIndex; i++)
             {
-                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                if (contacts[i].FirstName.Equals(firstName, StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("Contact Found. Enter new details:");
+                    Console.WriteLine("Contact found. Enter new details:");
 
                     Console.Write("New Address: ");
                     contacts[i].SetAddress(Console.ReadLine());
@@ -85,7 +78,7 @@ namespace AddressBookSystem
                     Console.Write("New State: ");
                     contacts[i].SetState(Console.ReadLine());
 
-                    Console.Write("New ZipCode: ");
+                    Console.Write("New Zip Code: ");
                     contacts[i].SetZipCode(Console.ReadLine());
 
                     Console.Write("New Country: ");
@@ -104,20 +97,21 @@ namespace AddressBookSystem
 
             Console.WriteLine("Contact not found.");
         }
-        //delete a person using person's name
+
+        // UC-5: Delete Contact
         public void DeleteContactByFirstName(string firstName)
         {
             for (int i = 0; i < currentIndex; i++)
             {
-                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                if (contacts[i].FirstName.Equals(firstName, StringComparison.OrdinalIgnoreCase))
                 {
-                    // Shift elements to the left
+                    // Shift left
                     for (int j = i; j < currentIndex - 1; j++)
                     {
                         contacts[j] = contacts[j + 1];
                     }
 
-                    contacts[currentIndex - 1] = null; // clear last slot
+                    contacts[currentIndex - 1] = null;
                     currentIndex--;
 
                     Console.WriteLine("Contact deleted successfully.");
@@ -128,16 +122,12 @@ namespace AddressBookSystem
             Console.WriteLine("Contact not found.");
         }
 
-        public string OwnerName
-        {
-            get { return ownerName; }
-        }
-        //add Duplicate Check method
-        public bool IsDuplicateContact(string firstName)
+        //Duplicate check helper
+        public bool IsDuplicateContact(UserContacts contact)
         {
             for (int i = 0; i < currentIndex; i++)
             {
-                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                if (contacts[i].Equals(contact))
                 {
                     return true;
                 }
@@ -145,5 +135,9 @@ namespace AddressBookSystem
             return false;
         }
 
+        public string OwnerName
+        {
+            get { return ownerName; }
+        }
     }
 }

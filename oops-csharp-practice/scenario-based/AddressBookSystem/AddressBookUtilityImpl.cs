@@ -151,6 +151,21 @@ namespace AddressBookSystem
             string state = Console.ReadLine();
             system.SearchPersonByState(state);
         }
+
+        //UC-9: Get Number of Contacts by City
+        public void CountByCity()
+        {
+            Console.Write("Enter city name: ");
+            string city = Console.ReadLine();
+            system.CountByCity(city);
+        }
+        //UC-9: Get Number of Contacts by state
+        public void CountByState()
+        {
+            Console.Write("Enter state name: ");
+            string state = Console.ReadLine();
+            system.CountByState(state);
+        }
     }
 }
 

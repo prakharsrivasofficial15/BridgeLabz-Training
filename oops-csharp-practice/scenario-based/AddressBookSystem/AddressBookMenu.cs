@@ -22,8 +22,9 @@ namespace AddressBookSystem
                 Console.WriteLine("6. Show Contacts");
                 Console.WriteLine("7. Search Person by City");
                 Console.WriteLine("8. Search Person by State");
-                Console.WriteLine("9. Exit");
-
+                Console.WriteLine("9. Count Contacts by City");
+                Console.WriteLine("10. Count Contacts by State");
+                Console.WriteLine("11. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -70,6 +71,16 @@ namespace AddressBookSystem
                         break;
 
                     case 9:
+                        // UC 9: Get number of contacts by city
+                        addressBook.CountByCity();
+                        break;
+
+                    case 10:
+                        // UC 9: Get number of contacts by state
+                        addressBook.CountByState();
+                        break;
+
+                    case 11:
                         return;
 
                     default:

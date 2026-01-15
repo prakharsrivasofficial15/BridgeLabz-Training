@@ -24,5 +24,9 @@ namespace AddressBookSystem
         void SearchByCity();
         //search person by state
         void SearchByState();
+        //search Number of Contacts by City
+        void CountByCity();
+        //search Number of Contacts by state
+        void CountByState();
     }
 }

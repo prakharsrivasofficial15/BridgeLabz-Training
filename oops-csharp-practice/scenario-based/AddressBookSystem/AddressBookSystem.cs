@@ -145,7 +145,9 @@ namespace AddressBookSystem
             }
 
             if (!found)
+            {
                 Console.WriteLine("No contacts found in this city.");
+            }
         }
 
         // UC-8: Search person by state
@@ -170,7 +172,52 @@ namespace AddressBookSystem
             }
 
             if (!found)
+            {
                 Console.WriteLine("No contacts found in this state.");
+            }
+        }
+
+        public void CountByCity(string city)
+        {
+            int countResult = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = addressBooks[i];
+                UserContacts[] contacts = book.GetContacts();
+                int contactCount = book.GetContactCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].City.Equals(city, StringComparison.OrdinalIgnoreCase))
+                    {
+                        countResult++;
+                    }
+                }
+            }
+
+            Console.WriteLine($"Number of contacts in city '{city}': {countResult}");
+        }
+        public void CountByState(string state)
+        {
+            int countResult = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                AddressBook book = addressBooks[i];
+                UserContacts[] contacts = book.GetContacts();
+                int contactCount = book.GetContactCount();
+
+                for (int j = 0; j < contactCount; j++)
+                {
+                    if (contacts[j].State.Equals(state, StringComparison.OrdinalIgnoreCase))
+                    {
+                        countResult++;
+                    }
+                }
+            }
+
+            Console.WriteLine($"Number of contacts in state '{state}': {countResult}");
         }
     }
 }

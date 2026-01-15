@@ -49,5 +49,44 @@ namespace AddressBookSystem
                 Console.WriteLine(contacts[i]);
             }
         }
+
+        //Edit the details of the person by searching by the first name of the person
+        public void EditContactByFirstName(string firstName)
+        {
+            for (int i = 0; i < currentIndex; i++)
+            {
+                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Contact Found. Enter new details:");
+
+                    Console.Write("New Address: ");
+                    contacts[i].SetAddress(Console.ReadLine());
+
+                    Console.Write("New City: ");
+                    contacts[i].SetCity(Console.ReadLine());
+
+                    Console.Write("New State: ");
+                    contacts[i].SetState(Console.ReadLine());
+
+                    Console.Write("New ZipCode: ");
+                    contacts[i].SetZipCode(Console.ReadLine());
+
+                    Console.Write("New Country: ");
+                    contacts[i].SetCountry(Console.ReadLine());
+
+                    Console.Write("New Phone Number: ");
+                    contacts[i].SetPhoneNumber(Console.ReadLine());
+
+                    Console.Write("New Email: ");
+                    contacts[i].SetEmail(Console.ReadLine());
+
+                    Console.WriteLine("Contact updated successfully.");
+                    return;
+                }
+            }
+
+            Console.WriteLine("Contact not found.");
+        }
+
     }
 }

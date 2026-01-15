@@ -33,7 +33,7 @@ namespace AddressBookSystem
             this.phoneNumber = phoneNumber;
             this.email = email;
         }
-
+        //setters are mandatory for editing
         public string FirstName() { return firstName; }
         public string getLastName() { return lastName; }
         public string getAddress() { return address; }
@@ -43,6 +43,14 @@ namespace AddressBookSystem
         public string getCountry() { return country; }
         public string getPhoneNumber() { return phoneNumber; }
         public string getEmail() { return email; }
+
+        public void SetAddress(string address) { this.address = address; }
+        public void SetCity(string city) { this.city = city; }
+        public void SetState(string state) { this.state = state; }
+        public void SetZipCode(string zipCode) { this.zipCode = zipCode; }
+        public void SetCountry(string country) { this.country = country; }
+        public void SetPhoneNumber(string phoneNumber) { this.phoneNumber = phoneNumber; }
+        public void SetEmail(string email) { this.email = email; }
 
         //overrides ToString method to return all entries in a single string
         public override string ToString()

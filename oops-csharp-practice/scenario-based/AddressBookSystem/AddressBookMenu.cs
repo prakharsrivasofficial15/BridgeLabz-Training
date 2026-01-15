@@ -14,8 +14,10 @@ namespace AddressBookSystem
             addressBook = new AddressBookUtilityImpl();
             while (true)
             {
-                Console.WriteLine("\n1. Add Contact");
-                Console.WriteLine("2. Exit");
+                Console.WriteLine("1. Add Contact");
+                Console.WriteLine("2. Edit Contact");
+                Console.WriteLine("3. Exit");
+
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -27,6 +29,11 @@ namespace AddressBookSystem
                         break;
 
                     case 2:
+                        // UC-2: edit a existing contact
+                        addressBook.EditContact();
+                        break;
+
+                    case 3:
                         return;
 
                     default:

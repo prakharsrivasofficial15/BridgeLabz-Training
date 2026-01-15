@@ -65,5 +65,14 @@ namespace AddressBookSystem
             //add contact to the address book
             addressBook.AddContact(contact);
         }
+
+        //Method to edit contat
+        public void EditContact()
+        {
+            Console.Write("Enter First Name of contact to edit: ");
+            string name = Console.ReadLine();
+            addressBook.EditContactByFirstName(name);
+        }
+
     }
 }

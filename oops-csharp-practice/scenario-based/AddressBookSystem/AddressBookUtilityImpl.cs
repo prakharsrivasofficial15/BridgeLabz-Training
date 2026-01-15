@@ -166,6 +166,19 @@ namespace AddressBookSystem
             string state = Console.ReadLine();
             system.CountByState(state);
         }
+
+        //UC-10: Added sorting of contacts alphabetically by person name using arrays
+        public void SortContactsByName()
+        {
+            if (activeBook == null)
+            {
+                Console.WriteLine("Select an Address Book first.");
+                return;
+            }
+
+            activeBook.SortContactsByName();
+            activeBook.ShowContacts();
+        }
     }
 }
 

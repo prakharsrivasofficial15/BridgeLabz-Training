@@ -24,7 +24,8 @@ namespace AddressBookSystem
                 Console.WriteLine("8. Search Person by State");
                 Console.WriteLine("9. Count Contacts by City");
                 Console.WriteLine("10. Count Contacts by State");
-                Console.WriteLine("11. Exit");
+                Console.WriteLine("11. Sort Contacts by Name");
+                Console.WriteLine("12. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -81,6 +82,11 @@ namespace AddressBookSystem
                         break;
 
                     case 11:
+                        // UC 10: Sort contacts alphabetically by person's name
+                        addressBook.SortContactsByName();
+                        break;
+
+                    case 12:
                         return;
 
                     default:

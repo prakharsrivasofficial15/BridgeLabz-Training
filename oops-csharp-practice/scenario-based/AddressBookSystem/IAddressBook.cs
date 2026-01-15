@@ -28,5 +28,6 @@ namespace AddressBookSystem
         void CountByCity();
         //search Number of Contacts by state
         void CountByState();
+        void SortContactsByName();
     }
 }

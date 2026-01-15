@@ -159,6 +159,37 @@ namespace AddressBookSystem
 
             return contacts[index];
         }
+        public void SortContactsByName()
+        {
+            if (currentIndex <= 1)
+            {
+                Console.WriteLine("Not enough contacts to sort.");
+                return;
+            }
 
+            for (int i = 0; i < currentIndex - 1; i++)
+            {
+                for (int j = 0; j < currentIndex - i - 1; j++)
+                {
+                    if (CompareContacts(contacts[j], contacts[j + 1]) > 0)
+                    {
+                        UserContacts temp = contacts[j];
+                        contacts[j] = contacts[j + 1];
+                        contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted alphabetically by name.");
+        }
+        private int CompareContacts(UserContacts c1, UserContacts c2)
+        {
+            int firstNameCompare = string.Compare(c1.FirstName, c2.FirstName, StringComparison.OrdinalIgnoreCase);
+
+            if (firstNameCompare != 0)
+                return firstNameCompare;
+
+            return string.Compare(c1.LastName, c2.LastName, StringComparison.OrdinalIgnoreCase);
+        }
     }
 }

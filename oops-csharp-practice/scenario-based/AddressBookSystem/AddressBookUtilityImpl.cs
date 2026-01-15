@@ -96,7 +96,6 @@ namespace AddressBookSystem
             );
 
             activeBook.AddContact(contact);
-            Console.WriteLine("Contact added successfully.");
         }
 
         // UC-4: Edit Contact
@@ -122,7 +121,6 @@ namespace AddressBookSystem
                 Console.WriteLine("Select an Address Book first.");
                 return;
             }
-
             Console.Write("Enter First Name of contact to delete: ");
             string name = Console.ReadLine();
 
@@ -137,8 +135,21 @@ namespace AddressBookSystem
                 Console.WriteLine("Select an Address Book first.");
                 return;
             }
-
             activeBook.ShowContacts();
+        }
+        //UC-8: search person by city
+        public void SearchByCity()
+        {
+            Console.Write("Enter city name to search: ");
+            string city = Console.ReadLine();
+            system.SearchPersonByCity(city);
+        }
+        //UC-8: search person by state
+        public void SearchByState()
+        {
+            Console.Write("Enter state name to search: ");
+            string state = Console.ReadLine();
+            system.SearchPersonByState(state);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace AddressBookSystem
         void AddContact();
         //edit the existing contact
         void EditContact();
-        //delete the contact
+        //delete the contacts
         void DeleteContact();
         //show all contacts
         void ShowContacts();
@@ -20,5 +20,9 @@ namespace AddressBookSystem
         void CreateAddressBook();
         //create new address book
         void SelectAddressBook();
+        //search person by city
+        void SearchByCity();
+        //search person by state
+        void SearchByState();
     }
 }

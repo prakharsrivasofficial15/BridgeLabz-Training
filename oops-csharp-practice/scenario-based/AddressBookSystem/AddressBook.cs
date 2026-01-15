@@ -134,10 +134,31 @@ namespace AddressBookSystem
             }
             return false;
         }
-
+        //returns who owns this Address Book
         public string OwnerName
         {
             get { return ownerName; }
         }
+        // This method gives us access to all the contacts stored in this Address Book. It returns the full array of contacts, even if some slots are empty
+        public UserContacts[] GetContacts()
+        {
+            return contacts;
+        }
+        //method tells how many contacts are currently added to the Address Book
+        public int GetContactCount()
+        {
+            return currentIndex;
+        }
+
+        public int CurrentCount => currentIndex;
+
+        public UserContacts GetContactAt(int index)
+        {
+            if (index < 0 || index >= currentIndex)
+                return null;
+
+            return contacts[index];
+        }
+
     }
 }

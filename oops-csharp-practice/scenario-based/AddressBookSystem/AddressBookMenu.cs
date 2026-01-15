@@ -20,7 +20,10 @@ namespace AddressBookSystem
                 Console.WriteLine("4. Edit Contact");
                 Console.WriteLine("5. Delete Contact");
                 Console.WriteLine("6. Show Contacts");
-                Console.WriteLine("7. Exit");
+                Console.WriteLine("7. Search Person by City");
+                Console.WriteLine("8. Search Person by State");
+                Console.WriteLine("9. Exit");
+
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -57,7 +60,16 @@ namespace AddressBookSystem
                         break;
 
                     case 7:
-                        // Exit
+                        // UC 8: Search person across address books by city
+                        addressBook.SearchByCity();
+                        break;
+
+                    case 8:
+                        // UC 8: Search person across address books by state
+                        addressBook.SearchByState();
+                        break;
+
+                    case 9:
                         return;
 
                     default:

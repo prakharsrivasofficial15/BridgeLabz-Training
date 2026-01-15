@@ -87,6 +87,29 @@ namespace AddressBookSystem
 
             Console.WriteLine("Contact not found.");
         }
+        //delete a person using person's name
+        public void DeleteContactByFirstName(string firstName)
+        {
+            for (int i = 0; i < currentIndex; i++)
+            {
+                if (contacts[i].FirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    // Shift elements to the left
+                    for (int j = i; j < currentIndex - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+
+                    contacts[currentIndex - 1] = null; // clear last slot
+                    currentIndex--;
+
+                    Console.WriteLine("Contact deleted successfully.");
+                    return;
+                }
+            }
+
+            Console.WriteLine("Contact not found.");
+        }
 
     }
 }

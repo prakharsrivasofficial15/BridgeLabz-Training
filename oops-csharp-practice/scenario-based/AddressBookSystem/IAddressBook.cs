@@ -12,5 +12,7 @@ namespace AddressBookSystem
         void AddContact();
         //edit the existing contact
         void EditContact();
+        //delete the contact
+        void DeleteContact();
     }
 }

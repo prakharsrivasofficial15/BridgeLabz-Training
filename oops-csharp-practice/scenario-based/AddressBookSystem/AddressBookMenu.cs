@@ -16,8 +16,8 @@ namespace AddressBookSystem
             {
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Exit");
-
+                Console.WriteLine("3. Delete Contact");
+                Console.WriteLine("4. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -34,6 +34,11 @@ namespace AddressBookSystem
                         break;
 
                     case 3:
+                        //UC-3: delete a existing contact
+                        addressBook.DeleteContact();
+                        break;
+
+                    case 4:
                         return;
 
                     default:

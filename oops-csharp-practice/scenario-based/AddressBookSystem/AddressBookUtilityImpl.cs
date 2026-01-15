@@ -73,6 +73,13 @@ namespace AddressBookSystem
             string name = Console.ReadLine();
             addressBook.EditContactByFirstName(name);
         }
+        //method to delete contact
+        public void DeleteContact()
+        {
+            Console.Write("Enter First Name of contact to delete: ");
+            string name = Console.ReadLine();
+            addressBook.DeleteContactByFirstName(name);
+        }
 
     }
 }

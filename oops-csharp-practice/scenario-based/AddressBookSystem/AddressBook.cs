@@ -191,5 +191,59 @@ namespace AddressBookSystem
 
             return string.Compare(c1.LastName, c2.LastName, StringComparison.OrdinalIgnoreCase);
         }
+
+        public void SortContactsByCity()
+        {
+            for (int i = 0; i < currentIndex - 1; i++)
+            {
+                for (int j = 0; j < currentIndex - i - 1; j++)
+                {
+                    if (string.Compare(contacts[j].City, contacts[j + 1].City, StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        UserContacts temp = contacts[j];
+                        contacts[j] = contacts[j + 1];
+                        contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted by city.");
+        }
+
+        public void SortContactsByState()
+        {
+            for (int i = 0; i < currentIndex - 1; i++)
+            {
+                for (int j = 0; j < currentIndex - i - 1; j++)
+                {
+                    if (string.Compare(contacts[j].State, contacts[j + 1].State, StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        UserContacts temp = contacts[j];
+                        contacts[j] = contacts[j + 1];
+                        contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted by state.");
+        }
+
+        public void SortContactsByZip()
+        {
+            for (int i = 0; i < currentIndex - 1; i++)
+            {
+                for (int j = 0; j < currentIndex - i - 1; j++)
+                {
+                    if (string.Compare(contacts[j].ZipCode, contacts[j + 1].ZipCode, StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        UserContacts temp = contacts[j];
+                        contacts[j] = contacts[j + 1];
+                        contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted by zip code.");
+        }
     }
 }

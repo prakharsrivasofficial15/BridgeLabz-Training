@@ -179,6 +179,41 @@ namespace AddressBookSystem
             activeBook.SortContactsByName();
             activeBook.ShowContacts();
         }
+        public void SortContactsByCity()
+        {
+            if (activeBook == null)
+            {
+                Console.WriteLine("Select an Address Book first.");
+                return;
+            }
+
+            activeBook.SortContactsByCity();
+            activeBook.ShowContacts();
+        }
+
+        public void SortContactsByState()
+        {
+            if (activeBook == null)
+            {
+                Console.WriteLine("Select an Address Book first.");
+                return;
+            }
+
+            activeBook.SortContactsByState();
+            activeBook.ShowContacts();
+        }
+
+        public void SortContactsByZip()
+        {
+            if (activeBook == null)
+            {
+                Console.WriteLine("Select an Address Book first.");
+                return;
+            }
+
+            activeBook.SortContactsByZip();
+            activeBook.ShowContacts();
+        }
     }
 }
 

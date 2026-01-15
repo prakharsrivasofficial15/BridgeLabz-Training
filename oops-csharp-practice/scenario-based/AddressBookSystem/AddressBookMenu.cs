@@ -25,7 +25,10 @@ namespace AddressBookSystem
                 Console.WriteLine("9. Count Contacts by City");
                 Console.WriteLine("10. Count Contacts by State");
                 Console.WriteLine("11. Sort Contacts by Name");
-                Console.WriteLine("12. Exit");
+                Console.WriteLine("12. Sort Contacts by City");
+                Console.WriteLine("13. Sort Contacts by State");
+                Console.WriteLine("14. Sort Contacts by Zip");
+                Console.WriteLine("15. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -87,6 +90,21 @@ namespace AddressBookSystem
                         break;
 
                     case 12:
+                        // UC 11: Sort contacts by city
+                        addressBook.SortContactsByCity();
+                        break;
+
+                    case 13:
+                        // UC 11: Sort contacts by state
+                        addressBook.SortContactsByState();
+                        break;
+
+                    case 14:
+                        // UC 11: Sort contacts by zip code
+                        addressBook.SortContactsByZip();
+                        break;
+
+                    case 15:
                         return;
 
                     default:

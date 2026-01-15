@@ -10,9 +10,13 @@ namespace AddressBookSystem
     internal class AddressBookUtilityImpl : IAddressBook
     {
         private AddressBook addressBook;
+        private AddressBookSystem system;
+        private AddressBook activeBook;
 
         public AddressBookUtilityImpl()
         {
+            system = new AddressBookSystem(5); // max 5 address books
+
             Console.Write("Enter Address Book Owner Name: ");
             string ownerName = Console.ReadLine();
 
@@ -64,6 +68,15 @@ namespace AddressBookSystem
 
             //add contact to the address book
             addressBook.AddContact(contact);
+
+            if (activeBook == null)
+            {
+                Console.WriteLine("Select an Address Book first.");
+                return;
+            }
+
+            // existing contact input logic
+            activeBook.AddContact(contact);
         }
 
         //Method to edit contat
@@ -86,5 +99,30 @@ namespace AddressBookSystem
             throw new NotImplementedException();
             addressBook.ShowContacts();
         }
+        //create new address book
+        public void CreateAddressBook()
+        {
+            Console.Write("Enter Address Book Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter Address Book Size: ");
+            int size = Convert.ToInt32(Console.ReadLine());
+
+            system.AddAddressBook(name, size);
+        }
+
+        public void SelectAddressBook()
+        {
+            Console.Write("Enter Address Book Name to Select: ");
+            string name = Console.ReadLine();
+
+            activeBook = system.GetAddressBook(name);
+
+            if (activeBook == null)
+                Console.WriteLine("Address Book not found.");
+            else
+                Console.WriteLine("Address Book selected.");
+        }
+
     }
 }

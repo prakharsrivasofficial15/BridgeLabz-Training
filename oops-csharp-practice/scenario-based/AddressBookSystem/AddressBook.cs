@@ -111,5 +111,10 @@ namespace AddressBookSystem
             Console.WriteLine("Contact not found.");
         }
 
+        public string OwnerName
+        {
+            get { return ownerName; }
+        }
+
     }
 }

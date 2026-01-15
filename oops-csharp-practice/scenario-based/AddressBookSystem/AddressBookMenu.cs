@@ -14,36 +14,50 @@ namespace AddressBookSystem
             addressBook = new AddressBookUtilityImpl();
             while (true)
             {
-                Console.WriteLine("1. Add Contact");
-                Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Delete Contact");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("\n1. Create Address Book");
+                Console.WriteLine("2. Select Address Book");
+                Console.WriteLine("3. Add Contact");
+                Console.WriteLine("4. Edit Contact");
+                Console.WriteLine("5. Delete Contact");
+                Console.WriteLine("6. Show Contacts");
+                Console.WriteLine("7. Exit");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
                 {
                     case 1:
-                        // UC-2: Add a contact
-                        addressBook.AddContact();
+                        // UC 5: Create a new Address Book with a unique name
+                        addressBook.CreateAddressBook();
                         break;
 
                     case 2:
-                        // UC-2: edit a existing contact
-                        addressBook.EditContact();
+                        // UC 5: Select an existing Address Book by name
+                        addressBook.SelectAddressBook();
                         break;
 
                     case 3:
-                        //UC-3: delete a existing contact
-                        addressBook.DeleteContact();
+                        // UC 1 & UC 4: Add a new contact and allow adding multiple contacts
+                        addressBook.AddContact();
                         break;
 
                     case 4:
-                        //UC-4: show all contacts
-                        addressBook.ShowContacts();
+                        // UC 2: Edit an existing contact using first name
+                        addressBook.EditContact();
                         break;
 
                     case 5:
+                        // UC 3: Delete a contact using first name
+                        addressBook.DeleteContact();
+                        break;
+
+                    case 6:
+                        // UC 4: Display all contacts in the selected Address Book
+                        addressBook.ShowContacts();
+                        break;
+
+                    case 7:
+                        // Exit the Address Book Application
                         return;
 
                     default:

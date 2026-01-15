@@ -1644,3 +1644,66 @@ Combined titles and showtimes using:
 	Implement optimized search and sort strategies
 
 ✅ **Training Progress:** Strengthening Efficiency-Oriented Programming Skills 🚀
+
+
+## 🗓️ Day-23 | C# Scenario-Based Address Book Application
+
+Date: 14 January 2026
+
+🔹 Overview
+
+Day-23 focused on enhancing a scenario-based Address Book application, with a deep dive into Object-Oriented Programming (OOP) concepts and continued expansion of the same codebase by adding multiple use cases. Debugging techniques were also applied to improve code quality.
+
+## 🔹 Topics Covered
+
+📌 **Address Book** – Scenario-Based Problem
+
+	Worked on a real-world Address Book application
+
+	Implemented and extended multiple use cases within the same codebase
+
+	Added new methods based on evolving requirements
+
+	Improved design by applying OOP principles
+
+📌 **Deep Dive into OOP Concepts**
+
+	Mentor-led discussion on OOP best practices
+
+	Revisited concepts such as:
+
+	Classes and Objects
+
+	Encapsulation
+
+	Inheritance and Polymorphism
+
+📌 **Debugging & Code Improvement**
+
+	Used debuggers to identify and fix bugs
+
+	Improved logical flow and code reliability
+
+## 🔹 Code Practice & GitHub Push
+
+Continued development on the Address Book project
+
+Pushed Core C# scenario-based problem solutions to GitHub repository
+
+## 🔹 Learning Outcome
+
+	Gained strong experience in OOP 
+
+	Improved approach to solving real-life programming problems
+
+	Enhanced proficiency in C# functionality
+
+## 🚀 Next Steps
+
+	Continue practicing C# programming concepts
+
+	Explore advanced OOP and DSA concepts
+
+	Learn more about .NET libraries and real-world projects
+
+✅ Training Progress: Strengthening Real-World Application Development Skills 🚀

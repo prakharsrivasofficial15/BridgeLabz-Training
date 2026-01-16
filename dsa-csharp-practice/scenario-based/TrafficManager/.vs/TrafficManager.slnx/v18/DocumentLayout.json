@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\circularlinkedlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:circularlinkedlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\vehiclenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:vehiclenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\vehicleservicemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:vehicleservicemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\vehicleserviceutilityimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:vehicleserviceutilityimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\ivehicleoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:ivehicleoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|c:\\users\\prakhar srivastava\\onedrive\\desktop\\dailytask\\trafficmanager\\vehiclequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AA99DA-63D6-4BF9-B912-7FC59B43FE98}|TrafficManager.csproj|solutionrelative:vehiclequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:32:30.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVehicleOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\IVehicleOperations.cs",
+              "RelativeDocumentMoniker": "IVehicleOperations.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\IVehicleOperations.cs",
+              "RelativeToolTip": "IVehicleOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:32:34.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleNode.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleNode.cs",
+              "RelativeDocumentMoniker": "VehicleNode.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleNode.cs",
+              "RelativeToolTip": "VehicleNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:32:45.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CircularLinkedListImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\CircularLinkedListImpl.cs",
+              "RelativeDocumentMoniker": "CircularLinkedListImpl.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\CircularLinkedListImpl.cs",
+              "RelativeToolTip": "CircularLinkedListImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:32:52.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehicleServiceUtilityImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleServiceUtilityImpl.cs",
+              "RelativeDocumentMoniker": "VehicleServiceUtilityImpl.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleServiceUtilityImpl.cs",
+              "RelativeToolTip": "VehicleServiceUtilityImpl.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:33:35.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleServiceMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleServiceMenu.cs",
+              "RelativeDocumentMoniker": "VehicleServiceMenu.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleServiceMenu.cs",
+              "RelativeToolTip": "VehicleServiceMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:33:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\Entry.cs",
+              "RelativeDocumentMoniker": "Entry.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\Entry.cs",
+              "RelativeToolTip": "Entry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:34:00.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VehicleQueue.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleQueue.cs",
+              "RelativeDocumentMoniker": "VehicleQueue.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\TrafficManager\\VehicleQueue.cs",
+              "RelativeToolTip": "VehicleQueue.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:58:15.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

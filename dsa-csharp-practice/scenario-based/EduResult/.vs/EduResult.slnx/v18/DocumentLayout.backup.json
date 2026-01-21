@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BoardMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BoardUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\District.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:District.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\IBoard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IBoard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\StudentMarks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentMarks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BoardMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentMarks.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\StudentMarks.cs",
+              "RelativeDocumentMoniker": "StudentMarks.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\StudentMarks.cs",
+              "RelativeToolTip": "StudentMarks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:23.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\IBoard.cs",
+              "RelativeDocumentMoniker": "IBoard.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\IBoard.cs",
+              "RelativeToolTip": "IBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "District.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\District.cs",
+              "RelativeDocumentMoniker": "District.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\District.cs",
+              "RelativeToolTip": "District.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:20.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoardUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardUtility.cs",
+              "RelativeDocumentMoniker": "BoardUtility.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardUtility.cs",
+              "RelativeToolTip": "BoardUtility.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMenu.cs",
+              "RelativeDocumentMoniker": "BoardMenu.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMenu.cs",
+              "RelativeToolTip": "BoardMenu.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:16.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardMain.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMain.cs",
+              "RelativeDocumentMoniker": "BoardMain.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\DailyTask\\EduResult\\BoardMain.cs",
+              "RelativeToolTip": "BoardMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T10:23:10.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

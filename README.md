@@ -2017,3 +2017,283 @@ Implemented:
 	Build end-to-end mini projects
 
 ✅ Training Progress: Consistent Growth in OOP, DSA & Real-World Problem Solving 🚀
+
+
+## 🗓️ Day-30 | Sorting, Collections & Exceptions
+
+Date: 22 January 2026
+
+🔹 Overview
+
+## Day-30 focused on mentor-led doubt clearing on sorting algorithms and collections, along with learning advanced data structures and an introduction to exception handling in C#.
+
+🔹 Topics Covered
+
+## 📌 Sorting Algorithms (Conceptual)
+
+	Selection Sort
+
+	Heap Sort
+
+	Counting Sort
+
+	Radix Sort
+
+	Bucket Sort
+
+## 📌 Circular Linked List – Scenario
+
+	AmbulanceRoute (Emergency Navigation System)
+
+	Hospital units connected in circular fashion
+
+	Used Circular Linked List to find nearest available unit for emergency patients
+
+## 📌 Collections in C#
+
+	Non-Generic: ArrayList, Hashtable, Stack, Queue
+
+	Generic: List<T>, Dictionary<TKey,TValue>, Stack<T>, Queue<T>
+
+	Concurrent: Thread-safe collections for multithreading
+
+	Specialized: NameValueCollection, StringCollection, HybridDictionary
+
+✔ Learned when to use which collection based on scenario
+
+## 📌 Exception Handling
+
+Introduction to exception handling in C#
+
+Assignment: 04 Submission of Exceptions
+
+## 🔹 Learning Outcome
+
+	Clear understanding of sorting and collections
+
+	Practical exposure to circular linked lists
+
+	Basic understanding of exception handling
+
+	Improved data structure selection skills
+
+## 🚀 Next Steps
+
+	Implement sorting algorithms
+
+	Practice exception handling
+
+	Apply collections in real-world scenarios
+
+✅ Training Progress: Strengthening DSA and C# Foundations 🚀
+
+
+## 🗓️ Day-31 | Code Quality, Testing & Static Analysis
+
+Date: 23 January 2026
+
+🔹 Overview
+
+## Day-31 focused on improving code quality, testing practices, and static analysis skills using professional tools and advanced C# concepts such as unit testing, regular expressions, annotations, and reflection.
+
+🔹 Topics Covered
+
+## 📌 Testing & Quality Tools
+
+	MSTest – Unit testing framework
+
+	Code Coverage in C#
+
+	SonarQube – Static code analysis for code quality
+
+## 📌 Advanced C# Concepts
+
+Regular Expressions (Regex) for pattern matching
+
+Annotations for metadata-driven programming
+
+Reflection for runtime type inspection
+
+## 🔹 Practice & Assignments
+
+🔧 SonarQube Implementation
+
+Implemented SonarQube in:
+
+An existing project
+
+AddressBook application
+
+Ensured usage of:
+
+	Collections
+
+	Generics
+
+	Exception Handling
+
+	Unit Testing
+
+## 📝 Assignments Given
+
+Submission: Regex & NUnit
+
+Submission: Annotations & Reflection
+
+Study Material: Code Coverage in C#
+
+## 🔹 Learning Outcome
+
+	Improved understanding of code quality and static analysis
+
+	Practical experience with unit testing and coverage
+
+	Better understanding of reflection and annotations
+
+	Strengthened professional development practices
+
+## 🚀 Next Steps
+
+	Complete SonarQube integration before next session
+
+	Prepare to explain implementation approach
+
+	Refactor code based on analysis results
+
+✅ Training Progress: Transitioning to Industry-Standard Development Practices 🚀
+
+
+## 🗓️ Day-32 | MSTest, Annotations & Reflection-Based Systems
+
+Date: 27 January 2026
+
+🔹 Overview
+
+## Day-32 focused on strengthening unit testing with MSTest and building advanced reflection-based systems using custom annotations, metadata scanning, and automated output generation.
+
+🔹 Topics Covered
+
+📌 MSTest
+
+Reviewed MSTest framework concepts and practices
+
+Studied provided material: MSTEST.txt
+
+Reinforced unit testing strategies and structure
+
+## 🔹 Scenario-Based Applications Developed
+
+**HealthCheckPro** – API Metadata Validator
+
+Story: A hospital REST API system that validates API metadata.
+
+	Used custom annotations
+
+	Scanned controller classes using Reflection
+
+	Identified missing annotations automatically
+
+	Generated API documentation programmatically
+
+**EventTracker** – Auto Audit System
+
+Story: An enterprise audit system that logs user actions.
+
+	Used @AuditTrail custom annotation
+
+	Scanned methods using Reflection
+
+	Generated structured JSON logs
+
+	Included timestamps and metadata for each event
+
+## 🔹 Concepts Applied
+
+	Custom annotations
+
+	Reflection for method scanning
+
+	Metadata-driven programming
+
+	JSON output generation
+
+	Unit testing integration with MSTest
+
+## 🔹 Learning Outcome
+
+	Strong understanding of MSTest and testing workflows
+
+	Practical experience with annotations and reflection
+
+	Ability to build automation tools using metadata
+
+	Improved code quality and system traceability
+
+## 🚀 Next Steps
+
+	Combine reflection with real-world applications
+
+	Improve test coverage using MSTest
+
+	Apply annotation-based design in projects
+
+✅ Training Progress: Advancing Toward Enterprise-Level C# Development 🚀
+
+
+## 🗓️ Day-33 | File Handling, CSV Processing & Validation Scenarios
+
+Date: 28 January 2026
+
+🔹 Overview
+
+## Day-33 focused on solving validation-based problems and learning CSV data handling in C#, which are essential for building data-driven and enterprise-level applications.
+
+🔹 Topics Covered
+
+## 📌 Scenario-Based Problem Solving
+
+**AeroVigil Problem**
+
+Analyzed and solved problem based on real-world system requirements
+
+**Bank Account Validation**
+
+Implemented validation logic for bank account details
+
+Used conditional checks and error handling
+
+## 📌 CSV Data Handling
+
+	Introduction to CSV file processing in C#
+
+	Reading and parsing CSV data
+
+	Validating records before processing
+
+	Handling invalid or corrupted data entries
+
+## 🔹 Assignments
+
+Submission 01: CSV Data Handling
+
+Study Material: CSV Data Handling in C#
+
+## 🔹 Learning Outcome
+
+	Improved ability to solve validation-based scenarios
+
+	Practical experience with file and CSV handling
+
+	Better understanding of data processing workflows
+
+	Enhanced confidence in handling real-world datasets
+
+## 🚀 Next Steps
+
+	Implement CSV handling with collections and LINQ
+
+	Add exception handling and logging
+
+	Integrate CSV validation into existing projects
+
+✅ Training Progress: Moving Toward Data-Driven Application Development 🚀

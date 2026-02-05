@@ -2297,3 +2297,195 @@ Study Material: CSV Data Handling in C#
 	Integrate CSV validation into existing projects
 
 ✅ Training Progress: Moving Toward Data-Driven Application Development 🚀
+
+
+## 🗓️ Day-34 | CSV Data Handling & Validation Problems
+
+Date: 28 January 2026
+
+🔹 Overview
+Day-34 focused on solving file-based validation problems and learning CSV data handling for structured data processing.
+
+## 🔹 Topics Covered
+
+	CSV file reading and parsing
+
+	Data validation techniques
+
+	Handling invalid records
+
+Problems solved:
+
+	AeroVigil
+
+	Bank Account Validation (Randomized Data)
+
+## 🔹 Assignments
+
+Submission 01: CSV Data Handling
+
+## 🔹 Learning Outcome
+
+	Improved understanding of file I/O
+
+	Practical experience with CSV-based data processing
+
+	Stronger validation and error-handling skills
+
+## 🗓️ Day-35 | JSON Data & Stream-Based Problems
+
+Date: 29 January 2026
+
+🔹 Overview
+Day-35 introduced JSON data handling and stream-based problem-solving.
+
+## 🔹 Topics Covered
+
+JSON serialization and deserialization
+
+Working with structured JSON data
+
+Problems solved:
+
+	Stream Buzz
+
+	OceanFleet
+
+## 🔹 Learning Outcome
+
+Ability to process JSON data
+
+Improved understanding of data-driven applications
+
+## 🗓️ Day-36 | Logical & Algorithmic Problem Solving
+
+Date: 30 January 2026
+
+🔹 Overview
+Day-36 focused on improving logical thinking and algorithm design through problem-solving.
+
+## 🔹 Problems Solved
+
+Lexical Twist
+
+FutureLogistics
+
+## 🔹 Learning Outcome
+
+Enhanced algorithmic thinking
+
+Better approach to complex logical problems
+
+## 🗓️ Day-37 | Design Principles & Design Patterns
+
+Date: 02 February 2026
+
+🔹 Overview
+Day-37 focused on learning software design fundamentals for writing maintainable and scalable applications.
+
+## 🔹 Topics Covered
+
+	Design Principles
+
+	SOLID principles
+
+	Clean code practices
+
+	Design Patterns
+
+	Purpose and use cases
+
+	Importance in enterprise applications
+
+## 🔹 Learning Outcome
+
+Improved understanding of software architecture
+
+Ability to design cleaner and scalable systems
+
+## 🗓️ Day-38 | Multithreading, Streams, Delegates & Events
+
+Date: 02 February 2026
+
+🔹 Overview
+Day-38 focused on advanced C# concepts and applying them to the Address Book project.
+
+## 🔹 Topics Covered
+
+	Multithreading
+
+	Stream API
+
+	Delegates
+
+	Events
+
+Updating Address Book using:
+
+	Multithreading
+
+	Streams
+
+	Delegates & Events
+
+## 🔹 Assignment
+
+Submission 01: Multithreading
+
+## 🔹 Learning Outcome
+
+Strong understanding of concurrency
+
+Practical application of advanced C# features
+
+## 🗓️ Day-39 | Exception Handling & Hazard Analysis
+
+Date: 03 February 2026
+
+🔹 Overview
+Day-39 focused on exception-handling strategies through real-world safety scenarios.
+
+## 🔹 Problem Solved
+
+	Factory Robot Hazard Analyzer
+
+	Exception-based error handling
+
+	Safety and fault detection logic
+
+## 🔹 Learning Outcome
+
+Improved exception-handling skills
+
+Better understanding of fault-tolerant systems
+
+## 🗓️ Day-40 | RDBMS, SQL & Database Fundamentals
+
+Date: 03 February 2026
+
+🔹 Overview
+Day-40 introduced database fundamentals using SQL Server.
+
+## 🔹 Topics Covered
+
+RDBMS concepts
+
+Normalization
+
+SQL Commands:
+
+	DDL
+
+	DML
+
+	DCL
+
+	Database design best practices
+
+## 🔹 Learning Outcome
+
+Clear understanding of relational databases
+
+Ability to design normalized database schemas
+
+✅ Training Progress: Transitioning into Enterprise-Level Development (C#, DSA, DB, Architecture) 🚀

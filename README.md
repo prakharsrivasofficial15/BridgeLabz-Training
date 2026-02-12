@@ -2489,3 +2489,131 @@ Clear understanding of relational databases
 Ability to design normalized database schemas
 
 ✅ Training Progress: Transitioning into Enterprise-Level Development (C#, DSA, DB, Architecture) 🚀
+
+
+## 🗓️ Day-41 | Multithreading, DBMS Submission & Project Kickoff
+
+Date: 04 February 2026
+
+🔹 Overview
+Day-41 focused on strengthening multithreading concepts, database programming, and starting a structured project-based learning approach.
+
+## 🔹 Topics Covered
+
+	Multithreading concepts and implementation
+
+	MSSQL Programming Concepts
+
+	RDBMS, Normalization, DDL, DML, DCL
+
+	DBMS Assignment Submission
+
+## 🔹 Project Introduction
+
+TechVille Smart City Management System
+
+Structured project-based training
+
+Focus on clean architecture and scalable design
+
+Real-world development practices
+
+## 🔹 Learning Outcome
+
+Improved understanding of database programming
+
+Practical exposure to multithreading
+
+Introduction to structured project development
+
+## 🗓️ Day-42 | Database Design & Healthcare Application
+
+Date: 05 February 2026
+
+🔹 Overview
+Day-42 focused on building a complete Healthcare database schema and strengthening SQL design skills.
+
+## 🔹 Topics Covered
+
+Database schema design:
+
+	Tables
+
+	Keys
+
+	Relationships
+
+	Constraints
+
+	SQL queries and joins
+
+	Transactions and indexing
+
+	Real-world healthcare application design
+
+## 🔹 Submission
+
+DBMS command query files
+
+Healthcare application
+
+Associated SQL files
+
+## 🔹 Learning Outcome
+
+Improved relational database modeling skills
+
+Better understanding of production-level database design
+
+
+## 🗓️ Day-44 | Advanced Multithreading & Concurrent System Design
+
+Date: 10 February 2026
+
+🔹 Overview
+Day-44 focused on designing a Concurrent Notification Processing System using multithreading, async programming, and advanced OOP concepts.
+
+📌 NotifyHub – Concurrent Notification Processing System
+
+## 🔹 Objective
+Design a scalable notification system capable of handling high-volume concurrent processing.
+
+🔹 Concepts Applied
+
+	OOP (Basic & Advanced)
+
+	Collections Framework
+
+	Multithreading
+
+	Async/Await & Tasks
+
+	Custom Annotations / Attributes
+
+	Exception Handling
+
+	Concurrency & Synchronization
+
+## 🔹 Key Features Implemented
+
+	Notification representation with validation rules
+
+	In-memory intake system
+
+	Concurrent processing without blocking
+
+	Priority-based notification handling
+
+	Failure handling with safe status updates
+
+	Extensible design for new notification types
+
+## 🔹 Design Principles Followed
+
+Separation of concerns
+
+Loose coupling
+
+Scalable architecture
+
+Safe concurrency handling

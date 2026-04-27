@@ -1,0 +1,5 @@
+D:\BridgeLabz-Training\core-csharp-practice\gcr-codebase\programming-elements\obj\Debug\net10.0\programming-elements.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz-Training\core-csharp-practice\gcr-codebase\programming-elements\obj\Debug\net10.0\programming-elements.AssemblyInfoInputs.cache
+D:\BridgeLabz-Training\core-csharp-practice\gcr-codebase\programming-elements\obj\Debug\net10.0\programming-elements.AssemblyInfo.cs
+D:\BridgeLabz-Training\core-csharp-practice\gcr-codebase\programming-elements\obj\Debug\net10.0\programming-elements.csproj.CoreCompileInputs.cache
+D:\BridgeLabz-Training\core-csharp-practice\gcr-codebase\programming-elements\obj\Debug\net10.0\programming-elements.sourcelink.json

@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\StrengthWorkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StrengthWorkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\UserProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\CardioWorkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CardioWorkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\ITrackable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITrackable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exercise.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Exercise.cs",
+              "RelativeDocumentMoniker": "Exercise.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Exercise.cs",
+              "RelativeToolTip": "Exercise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:02:32.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardioWorkout.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\CardioWorkout.cs",
+              "RelativeDocumentMoniker": "CardioWorkout.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\CardioWorkout.cs",
+              "RelativeToolTip": "CardioWorkout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:02:21.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfile.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\UserProfile.cs",
+              "RelativeToolTip": "UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:32:25.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StrengthWorkout.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\StrengthWorkout.cs",
+              "RelativeDocumentMoniker": "StrengthWorkout.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\StrengthWorkout.cs",
+              "RelativeToolTip": "StrengthWorkout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:32:20.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Entry.cs",
+              "RelativeDocumentMoniker": "Entry.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\Entry.cs",
+              "RelativeToolTip": "Entry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:13:44.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITrackable.cs",
+              "DocumentMoniker": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\ITrackable.cs",
+              "RelativeDocumentMoniker": "ITrackable.cs",
+              "ToolTip": "C:\\Users\\Prakhar Srivastava\\OneDrive\\Desktop\\FitnessTracker\\ITrackable.cs",
+              "RelativeToolTip": "ITrackable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:32:18.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 97,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
